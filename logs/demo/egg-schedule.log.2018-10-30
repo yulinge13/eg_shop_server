@@ -1,0 +1,14 @@
+2018-10-30 13:17:59,568 INFO 29580 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-10-31 00:00:00.000
+2018-10-30 13:17:59,569 INFO 29580 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-31 00:00:01.000
+2018-10-30 13:34:43,757 INFO 36796 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-10-31 00:00:00.000
+2018-10-30 13:34:43,758 INFO 36796 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-31 00:00:01.000
+2018-10-31 09:59:01,602 INFO 36796 [15409511416012910254163009805] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-10-31 09:59:01,612 INFO 36796 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-01 00:00:00.000
+2018-10-31 09:59:01,612 INFO 36796 [15409511416122910254173986504] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-10-31 09:59:01,615 INFO 36796 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-01 00:00:01.000
+2018-10-31 09:59:01,619 INFO 37192 [15409511416012910254163009805] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-10-31 09:59:01,621 INFO 37192 [15409511416012910254163009805] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-10-31 09:59:01,626 INFO 37192 [15409511416122910254173986504] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-10-31 09:59:01,626 INFO 37192 [15409511416122910254173986504] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-10-31 09:59:02,167 INFO 37192 [15409511416012910254163009805] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 545ms
+2018-10-31 09:59:05,366 INFO 37192 [15409511416122910254173986504] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 3740ms

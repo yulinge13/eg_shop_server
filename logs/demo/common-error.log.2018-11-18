@@ -1,0 +1,9 @@
+2018-11-19 09:58:45,031 ERROR 1632 nodejs.ClusterClientNoResponseError: client no response in 227061686ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\linge l yu\Desktop\egg-example\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 1632
+hostname: LYU129PRI2
+

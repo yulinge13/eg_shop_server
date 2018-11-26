@@ -1,0 +1,402 @@
+2018-11-19 15:19:00,339 ERROR 1632 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1632
+hostname: LYU129PRI2
+
+2018-11-23 17:24:06,248 ERROR 25956 [-/::1/-/4ms POST /addUserInfo] nodejs.ReferenceError: ctx is not defined
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\user.js:12:27)
+    at User.addUserInfo (C:\Users\linge l yu\Desktop\egg-example\app\controller\user.js:20:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\app\middleware\isParmas.js:16:19
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 25956
+hostname: LYU129PRI2
+
+2018-11-23 17:25:08,878 ERROR 8896 [-/::1/-/58ms POST /addUserInfo] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'yulinge16' for key 'name'
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:30:15)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\user.js:14:41)
+    at User.addUserInfo (C:\Users\linge l yu\Desktop\egg-example\app\controller\user.js:20:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: insert into user(name,passWord,sex,age) values('yulinge16','f619a9571231ea02563aebe47e8fb727','1','yu80151135')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'yulinge16' for key 'name'"
+sqlState: "23000"
+index: 0
+sql: "insert into user(name,passWord,sex,age) values('yulinge16','f619a9571231ea02563aebe47e8fb727','1','yu80151135')"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_DUP_ENTRYError"
+pid: 8896
+hostname: LYU129PRI2
+
+2018-11-23 17:26:06,682 ERROR 18264 [-/::1/-/59ms POST /addUserInfo] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'yulinge16' for key 'name'
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:30:15)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\user.js:15:41)
+    at User.addUserInfo (C:\Users\linge l yu\Desktop\egg-example\app\controller\user.js:20:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: insert into user(name,passWord,sex,age) values('yulinge16','f619a9571231ea02563aebe47e8fb727','1','yu80151135')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'yulinge16' for key 'name'"
+sqlState: "23000"
+index: 0
+sql: "insert into user(name,passWord,sex,age) values('yulinge16','f619a9571231ea02563aebe47e8fb727','1','yu80151135')"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_DUP_ENTRYError"
+pid: 18264
+hostname: LYU129PRI2
+
+2018-11-23 17:27:41,208 ERROR 16212 [-/::1/-/57ms POST /addUserInfo] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'yulinge16' for key 'name'
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:30:15)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\user.js:14:41)
+    at User.addUserInfo (C:\Users\linge l yu\Desktop\egg-example\app\controller\user.js:20:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: insert into user(name,passWord,sex,age) values('yulinge16','f619a9571231ea02563aebe47e8fb727','1','yu80151135')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'yulinge16' for key 'name'"
+sqlState: "23000"
+index: 0
+sql: "insert into user(name,passWord,sex,age) values('yulinge16','f619a9571231ea02563aebe47e8fb727','1','yu80151135')"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_DUP_ENTRYError"
+pid: 16212
+hostname: LYU129PRI2
+
+2018-11-23 18:24:36,498 ERROR 17588 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17588
+hostname: LYU129PRI2
+
+2018-11-23 18:29:40,779 ERROR 22976 [-/::1/-/58ms POST /addOrder] nodejs.ReferenceError: cxt is not defined
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:8:17)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\app\middleware\isParmas.js:16:19
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 22976
+hostname: LYU129PRI2
+
+2018-11-23 18:30:37,684 ERROR 25920 [-/::1/-/49ms POST /addOrder] nodejs.TypeError: Cannot read property 'request' of undefined
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:8:21)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\app\middleware\isParmas.js:16:19
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 25920
+hostname: LYU129PRI2
+
+2018-11-23 18:31:38,422 ERROR 26152 [-/::1/-/51ms POST /addOrder] nodejs.ReferenceError: cxt is not defined
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:9:25)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\app\middleware\isParmas.js:16:19
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 26152
+hostname: LYU129PRI2
+
+2018-11-23 18:34:31,578 ERROR 7188 nodejs.TokenExpiredError: jwt expired
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\jsonwebtoken\verify.js:141:21
+    at getSecret (C:\Users\linge l yu\Desktop\egg-example\node_modules\jsonwebtoken\verify.js:76:14)
+    at Object.module.exports [as verify] (C:\Users\linge l yu\Desktop\egg-example\node_modules\jsonwebtoken\verify.js:80:10)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\order.js:14:24)
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:9:43)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\app\middleware\isParmas.js:16:19
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+name: "TokenExpiredError"
+message: "jwt expired"
+expiredAt: "2018-11-23T10:30:18.000Z"
+pid: 7188
+hostname: LYU129PRI2
+
+2018-11-23 18:46:56,644 ERROR 17892 nodejs.unhandledRejectionError: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:30:15)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\order.js:25:41)
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:9:43)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: insert into orderLists(orderId,orderNo,productId,userId,creatTime) values('18e95bc0-ef0d-11e8-8c7f-cfe8b2b17f52','1542970021671.1646','2','1542970016636')
+code: "ER_WRONG_VALUE_COUNT_ON_ROW"
+errno: 1136
+sqlMessage: "Column count doesn't match value count at row 1"
+sqlState: "21S01"
+index: 0
+sql: "insert into orderLists(orderId,orderNo,productId,userId,creatTime) values('18e95bc0-ef0d-11e8-8c7f-cfe8b2b17f52','1542970021671.1646','2','1542970016636')"
+name: "unhandledRejectionError"
+pid: 17892
+hostname: LYU129PRI2
+
+2018-11-23 18:52:27,445 ERROR 2428 [-/::1/-/7ms POST /addOrder] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:30:15)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\order.js:25:41)
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:11:49)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: insert into orderLists(orderId,orderNo,productId,userId,creatTime) values('de160b00-ef0d-11e8-93ed-97321e597995','1542970355414.8616','2','9','1542970347440')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into orderLists(orderId,orderNo,productId,userId,creatTime) values('de160b00-ef0d-11e8-93ed-97321e597995','1542970355414.8616','2','9','1542970347440')"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_DUP_ENTRYError"
+pid: 2428
+hostname: LYU129PRI2
+
+2018-11-23 18:52:41,081 ERROR 23556 [-/::1/-/57ms POST /addOrder] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:30:15)
+    at User.addUser (C:\Users\linge l yu\Desktop\egg-example\app\service\order.js:25:41)
+    at Order.addOrder (C:\Users\linge l yu\Desktop\egg-example\app\controller\order.js:11:49)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: insert into orderLists(orderId,orderNo,productId,userId,creatTime) values('a918283b-225d-40ec-9032-cef2b7fd00fa','1542970363529.6138','2','9','1542970361076')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "insert into orderLists(orderId,orderNo,productId,userId,creatTime) values('a918283b-225d-40ec-9032-cef2b7fd00fa','1542970363529.6138','2','9','1542970361076')"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_DUP_ENTRYError"
+pid: 23556
+hostname: LYU129PRI2
+
+2018-11-23 18:57:22,509 ERROR 17588 nodejs.ClusterClientNoResponseError: client no response in 182178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\linge l yu\Desktop\egg-example\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 17588
+hostname: LYU129PRI2
+
+2018-11-26 10:00:47,638 ERROR 17588 nodejs.ClusterClientNoResponseError: client no response in 226663771ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\linge l yu\Desktop\egg-example\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 17588
+hostname: LYU129PRI2
+

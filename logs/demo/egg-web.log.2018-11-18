@@ -1,0 +1,45 @@
+2018-11-09 09:59:19,054 INFO 22140 [egg-logrotator] app logger reload: got log-reload message
+2018-11-16 16:33:13,982 INFO 16584 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-16 16:33:14,080 INFO 16584 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-16 16:33:14,080 INFO 16584 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-16 16:33:14,080 INFO 16584 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-16 16:33:14,080 INFO 16584 [egg-multipart] file mode enable
+2018-11-16 16:33:14,080 INFO 16584 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-16 16:33:14,081 INFO 16584 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-16 16:33:15,343 INFO 16584 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-16 16:33:15,354 INFO 16584 [egg-security] use noopen middleware
+2018-11-16 16:33:15,366 INFO 16584 [egg-security] use nosniff middleware
+2018-11-16 16:33:15,372 INFO 16584 [egg-security] use xssProtection middleware
+2018-11-16 16:33:15,377 INFO 16584 [egg-security] use xframe middleware
+2018-11-16 16:33:15,384 INFO 16584 [egg-security] use dta middleware
+2018-11-16 16:33:15,384 INFO 16584 [egg-security] compose 5 middlewares into one security middleware
+2018-11-16 16:33:15,944 INFO 16584 [egg:core] dump config after load, 14ms
+2018-11-16 16:33:15,974 INFO 16584 [egg-watcher:application] watcher start success
+2018-11-16 16:34:05,187 INFO 16508 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-16 16:34:05,364 INFO 16508 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-16 16:34:05,364 INFO 16508 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-16 16:34:05,364 INFO 16508 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-16 16:34:05,365 INFO 16508 [egg-multipart] file mode enable
+2018-11-16 16:34:05,365 INFO 16508 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-16 16:34:05,365 INFO 16508 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-16 16:34:06,962 INFO 16508 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-16 16:34:06,971 INFO 16508 [egg-security] use noopen middleware
+2018-11-16 16:34:06,983 INFO 16508 [egg-security] use nosniff middleware
+2018-11-16 16:34:06,989 INFO 16508 [egg-security] use xssProtection middleware
+2018-11-16 16:34:06,995 INFO 16508 [egg-security] use xframe middleware
+2018-11-16 16:34:06,999 INFO 16508 [egg-security] use dta middleware
+2018-11-16 16:34:06,999 INFO 16508 [egg-security] compose 5 middlewares into one security middleware
+2018-11-16 16:34:07,640 INFO 16508 [egg:core] dump config after load, 15ms
+2018-11-16 16:34:07,676 INFO 16508 [egg-watcher:application] watcher start success
+2018-11-16 16:34:07,679 INFO 16508 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 16 2018 16:34:07 GMT+0800 (China Standard Time)
+2018-11-16 16:34:07,708 INFO 16508 [egg:core] dump config after ready, 24ms
+2018-11-19 09:58:44,992 WARN 16508 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-19 09:58:45,359 INFO 16508 [-/127.0.0.1/-/109ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false&disable=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo"
+2018-11-19 09:58:45,905 INFO 16508 [egg-logrotator] start remove C:\Users\linge l yu\Desktop\egg-example\logs\demo files: common-error.log.2018-10-10, common-error.log.2018-10-11, demo-web.log.2018-10-10, demo-web.log.2018-10-11, egg-agent.log.2018-10-10, egg-agent.log.2018-10-11, egg-schedule.log.2018-10-10, egg-schedule.log.2018-10-11, egg-web.log.2018-10-10, egg-web.log.2018-10-11
+2018-11-19 09:58:46,836 INFO 16508 [egg-logrotator] clean all log before 31 days
+2018-11-19 09:58:46,838 INFO 16508 [-/127.0.0.1/-/1822ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 1822ms
+2018-11-19 09:58:47,407 INFO 16508 [-/127.0.0.1/-/2264ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false&disable=false] [egg-multipart:CleanTmpdir] end
+2018-11-19 09:58:47,407 INFO 16508 [-/127.0.0.1/-/2265ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false&disable=false] [egg-schedule] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 2265ms
+2018-11-19 09:58:49,038 INFO 16508 [egg-logrotator] broadcast log-reload
+2018-11-19 09:58:49,039 INFO 16508 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\common-error.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\common-error.log.2018-11-18","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\demo-web.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\demo-web.log.2018-11-18","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-web.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-web.log.2018-11-18","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-schedule.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-schedule.log.2018-11-18","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-agent.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-agent.log.2018-11-18"]
+2018-11-19 09:58:49,039 INFO 16508 [-/127.0.0.1/-/4020ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 4020ms

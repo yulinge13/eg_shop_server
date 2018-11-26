@@ -1,0 +1,726 @@
+2018-11-19 09:58:49,106 INFO 16508 [egg-logrotator] app logger reload: got log-reload message
+2018-11-19 13:14:46,448 INFO 21872 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 13:14:46,549 INFO 21872 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 13:14:46,549 INFO 21872 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 13:14:46,549 INFO 21872 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 13:14:46,550 INFO 21872 [egg-multipart] file mode enable
+2018-11-19 13:14:46,550 INFO 21872 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 13:14:46,550 INFO 21872 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 13:14:47,573 INFO 21872 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 13:14:47,579 INFO 21872 [egg-security] use noopen middleware
+2018-11-19 13:14:47,587 INFO 21872 [egg-security] use nosniff middleware
+2018-11-19 13:14:47,591 INFO 21872 [egg-security] use xssProtection middleware
+2018-11-19 13:14:47,595 INFO 21872 [egg-security] use xframe middleware
+2018-11-19 13:14:47,599 INFO 21872 [egg-security] use dta middleware
+2018-11-19 13:14:47,599 INFO 21872 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 13:14:47,939 INFO 21872 [egg:core] dump config after load, 10ms
+2018-11-19 13:14:47,977 INFO 21872 [egg-watcher:application] watcher start success
+2018-11-19 13:14:47,979 INFO 21872 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 13:14:47 GMT+0800 (China Standard Time)
+2018-11-19 13:14:47,992 INFO 21872 [egg:core] dump config after ready, 12ms
+2018-11-19 13:14:52,767 INFO 19140 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 13:14:52,851 INFO 19140 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 13:14:52,851 INFO 19140 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 13:14:52,851 INFO 19140 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 13:14:52,851 INFO 19140 [egg-multipart] file mode enable
+2018-11-19 13:14:52,851 INFO 19140 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 13:14:52,852 INFO 19140 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 13:14:53,594 INFO 19140 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 13:14:53,599 INFO 19140 [egg-security] use noopen middleware
+2018-11-19 13:14:53,605 INFO 19140 [egg-security] use nosniff middleware
+2018-11-19 13:14:53,609 INFO 19140 [egg-security] use xssProtection middleware
+2018-11-19 13:14:53,613 INFO 19140 [egg-security] use xframe middleware
+2018-11-19 13:14:53,616 INFO 19140 [egg-security] use dta middleware
+2018-11-19 13:14:53,616 INFO 19140 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 13:14:53,917 INFO 19140 [egg:core] dump config after load, 9ms
+2018-11-19 13:14:53,958 INFO 19140 [egg-watcher:application] watcher start success
+2018-11-19 13:14:53,959 INFO 19140 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 13:14:53 GMT+0800 (China Standard Time)
+2018-11-19 13:14:53,974 INFO 19140 [egg:core] dump config after ready, 13ms
+2018-11-19 13:14:58,996 INFO 12324 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 13:14:59,088 INFO 12324 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 13:14:59,088 INFO 12324 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 13:14:59,088 INFO 12324 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 13:14:59,088 INFO 12324 [egg-multipart] file mode enable
+2018-11-19 13:14:59,088 INFO 12324 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 13:14:59,088 INFO 12324 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 13:15:00,031 INFO 12324 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 13:15:00,039 INFO 12324 [egg-security] use noopen middleware
+2018-11-19 13:15:00,049 INFO 12324 [egg-security] use nosniff middleware
+2018-11-19 13:15:00,053 INFO 12324 [egg-security] use xssProtection middleware
+2018-11-19 13:15:00,058 INFO 12324 [egg-security] use xframe middleware
+2018-11-19 13:15:00,062 INFO 12324 [egg-security] use dta middleware
+2018-11-19 13:15:00,062 INFO 12324 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 13:15:00,374 INFO 12324 [egg:core] dump config after load, 12ms
+2018-11-19 13:15:00,405 INFO 12324 [egg-watcher:application] watcher start success
+2018-11-19 13:15:00,406 INFO 12324 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 13:15:00 GMT+0800 (China Standard Time)
+2018-11-19 13:15:00,419 INFO 12324 [egg:core] dump config after ready, 11ms
+2018-11-19 13:15:34,040 INFO 9920 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 13:15:34,123 INFO 9920 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 13:15:34,123 INFO 9920 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 13:15:34,123 INFO 9920 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 13:15:34,123 INFO 9920 [egg-multipart] file mode enable
+2018-11-19 13:15:34,123 INFO 9920 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 13:15:34,123 INFO 9920 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 13:15:34,949 INFO 9920 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 13:15:34,954 INFO 9920 [egg-security] use noopen middleware
+2018-11-19 13:15:34,962 INFO 9920 [egg-security] use nosniff middleware
+2018-11-19 13:15:34,965 INFO 9920 [egg-security] use xssProtection middleware
+2018-11-19 13:15:34,970 INFO 9920 [egg-security] use xframe middleware
+2018-11-19 13:15:34,973 INFO 9920 [egg-security] use dta middleware
+2018-11-19 13:15:34,973 INFO 9920 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 13:15:35,281 INFO 9920 [egg:core] dump config after load, 9ms
+2018-11-19 13:15:35,314 INFO 9920 [egg-watcher:application] watcher start success
+2018-11-19 13:15:35,315 INFO 9920 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 13:15:35 GMT+0800 (China Standard Time)
+2018-11-19 13:15:35,328 INFO 9920 [egg:core] dump config after ready, 11ms
+2018-11-19 13:48:07,220 INFO 25484 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 13:48:07,324 INFO 25484 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 13:48:07,324 INFO 25484 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 13:48:07,324 INFO 25484 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 13:48:07,324 INFO 25484 [egg-multipart] file mode enable
+2018-11-19 13:48:07,324 INFO 25484 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 13:48:07,325 INFO 25484 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 13:48:08,171 INFO 25484 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 13:48:08,177 INFO 25484 [egg-security] use noopen middleware
+2018-11-19 13:48:08,184 INFO 25484 [egg-security] use nosniff middleware
+2018-11-19 13:48:08,188 INFO 25484 [egg-security] use xssProtection middleware
+2018-11-19 13:48:08,192 INFO 25484 [egg-security] use xframe middleware
+2018-11-19 13:48:08,195 INFO 25484 [egg-security] use dta middleware
+2018-11-19 13:48:08,195 INFO 25484 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 13:48:08,510 INFO 25484 [egg:core] dump config after load, 9ms
+2018-11-19 13:48:08,543 INFO 25484 [egg-watcher:application] watcher start success
+2018-11-19 13:48:08,545 INFO 25484 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 13:48:08 GMT+0800 (China Standard Time)
+2018-11-19 13:48:08,560 INFO 25484 [egg:core] dump config after ready, 14ms
+2018-11-19 15:18:49,394 INFO 22960 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 15:18:49,515 INFO 22960 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 15:18:49,515 INFO 22960 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 15:18:49,515 INFO 22960 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 15:18:49,515 INFO 22960 [egg-multipart] file mode enable
+2018-11-19 15:18:49,515 INFO 22960 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 15:18:49,516 INFO 22960 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 15:18:50,772 INFO 22960 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 15:18:50,781 INFO 22960 [egg-security] use noopen middleware
+2018-11-19 15:18:50,795 INFO 22960 [egg-security] use nosniff middleware
+2018-11-19 15:18:50,805 INFO 22960 [egg-security] use xssProtection middleware
+2018-11-19 15:18:50,815 INFO 22960 [egg-security] use xframe middleware
+2018-11-19 15:18:50,823 INFO 22960 [egg-security] use dta middleware
+2018-11-19 15:18:50,823 INFO 22960 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 15:18:51,404 INFO 22960 [egg:core] dump config after load, 13ms
+2018-11-19 15:18:51,440 INFO 22960 [egg-watcher:application] watcher start success
+2018-11-19 15:18:51,442 INFO 22960 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 15:18:51 GMT+0800 (China Standard Time)
+2018-11-19 15:18:51,458 INFO 22960 [egg:core] dump config after ready, 14ms
+2018-11-19 15:18:58,309 INFO 17940 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 15:18:58,434 INFO 17940 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 15:18:58,434 INFO 17940 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 15:18:58,434 INFO 17940 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 15:18:58,435 INFO 17940 [egg-multipart] file mode enable
+2018-11-19 15:18:58,435 INFO 17940 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 15:18:58,435 INFO 17940 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 15:18:59,850 INFO 17940 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 15:18:59,858 INFO 17940 [egg-security] use noopen middleware
+2018-11-19 15:18:59,871 INFO 17940 [egg-security] use nosniff middleware
+2018-11-19 15:18:59,877 INFO 17940 [egg-security] use xssProtection middleware
+2018-11-19 15:18:59,883 INFO 17940 [egg-security] use xframe middleware
+2018-11-19 15:18:59,890 INFO 17940 [egg-security] use dta middleware
+2018-11-19 15:18:59,890 INFO 17940 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 15:19:00,303 INFO 17940 [egg:core] dump config after load, 11ms
+2018-11-19 15:18:58,390 INFO 15700 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 15:18:58,529 INFO 15700 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 15:18:58,529 INFO 15700 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 15:18:58,529 INFO 15700 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 15:18:58,529 INFO 15700 [egg-multipart] file mode enable
+2018-11-19 15:18:58,529 INFO 15700 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 15:18:58,530 INFO 15700 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 15:18:59,950 INFO 15700 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 15:18:59,957 INFO 15700 [egg-security] use noopen middleware
+2018-11-19 15:18:59,966 INFO 15700 [egg-security] use nosniff middleware
+2018-11-19 15:18:59,970 INFO 15700 [egg-security] use xssProtection middleware
+2018-11-19 15:18:59,975 INFO 15700 [egg-security] use xframe middleware
+2018-11-19 15:18:59,979 INFO 15700 [egg-security] use dta middleware
+2018-11-19 15:18:59,979 INFO 15700 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 15:19:00,390 INFO 15700 [egg:core] dump config after load, 11ms
+2018-11-19 15:19:00,423 INFO 15700 [egg-watcher:application] watcher start success
+2018-11-19 15:19:00,425 INFO 15700 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 15:19:00 GMT+0800 (China Standard Time)
+2018-11-19 15:19:00,442 INFO 15700 [egg:core] dump config after ready, 15ms
+2018-11-19 15:19:05,946 INFO 13532 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-19 15:19:06,062 INFO 13532 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-19 15:19:06,062 INFO 13532 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-19 15:19:06,062 INFO 13532 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-19 15:19:06,062 INFO 13532 [egg-multipart] file mode enable
+2018-11-19 15:19:06,062 INFO 13532 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-19 15:19:06,062 INFO 13532 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-19 15:19:07,116 INFO 13532 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-19 15:19:07,123 INFO 13532 [egg-security] use noopen middleware
+2018-11-19 15:19:07,132 INFO 13532 [egg-security] use nosniff middleware
+2018-11-19 15:19:07,138 INFO 13532 [egg-security] use xssProtection middleware
+2018-11-19 15:19:07,143 INFO 13532 [egg-security] use xframe middleware
+2018-11-19 15:19:07,147 INFO 13532 [egg-security] use dta middleware
+2018-11-19 15:19:07,147 INFO 13532 [egg-security] compose 5 middlewares into one security middleware
+2018-11-19 15:19:07,462 INFO 13532 [egg:core] dump config after load, 10ms
+2018-11-19 15:19:07,493 INFO 13532 [egg-watcher:application] watcher start success
+2018-11-19 15:19:07,494 INFO 13532 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 19 2018 15:19:07 GMT+0800 (China Standard Time)
+2018-11-19 15:19:07,505 INFO 13532 [egg:core] dump config after ready, 9ms
+2018-11-23 17:15:30,067 INFO 25956 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:15:30,147 INFO 25956 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:15:30,147 INFO 25956 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:15:30,147 INFO 25956 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:15:30,148 INFO 25956 [egg-multipart] file mode enable
+2018-11-23 17:15:30,148 INFO 25956 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:15:30,148 INFO 25956 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:15:31,037 INFO 25956 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:15:31,043 INFO 25956 [egg-security] use noopen middleware
+2018-11-23 17:15:31,049 INFO 25956 [egg-security] use nosniff middleware
+2018-11-23 17:15:31,053 INFO 25956 [egg-security] use xssProtection middleware
+2018-11-23 17:15:31,056 INFO 25956 [egg-security] use xframe middleware
+2018-11-23 17:15:31,059 INFO 25956 [egg-security] use dta middleware
+2018-11-23 17:15:31,059 INFO 25956 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:15:31,358 INFO 25956 [egg:core] dump config after load, 10ms
+2018-11-23 17:15:31,406 INFO 25956 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:15:31 GMT+0800 (China Standard Time)
+2018-11-23 17:15:31,407 INFO 25956 [egg-watcher:application] watcher start success
+2018-11-23 17:15:31,420 INFO 25956 [egg:core] dump config after ready, 11ms
+2018-11-23 17:25:04,232 INFO 8896 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:25:04,310 INFO 8896 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:25:04,310 INFO 8896 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:25:04,310 INFO 8896 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:25:04,311 INFO 8896 [egg-multipart] file mode enable
+2018-11-23 17:25:04,311 INFO 8896 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:25:04,311 INFO 8896 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:25:05,033 INFO 8896 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:25:05,037 INFO 8896 [egg-security] use noopen middleware
+2018-11-23 17:25:05,043 INFO 8896 [egg-security] use nosniff middleware
+2018-11-23 17:25:05,046 INFO 8896 [egg-security] use xssProtection middleware
+2018-11-23 17:25:05,049 INFO 8896 [egg-security] use xframe middleware
+2018-11-23 17:25:05,052 INFO 8896 [egg-security] use dta middleware
+2018-11-23 17:25:05,052 INFO 8896 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:25:05,324 INFO 8896 [egg:core] dump config after load, 8ms
+2018-11-23 17:25:05,357 INFO 8896 [egg-watcher:application] watcher start success
+2018-11-23 17:25:05,358 INFO 8896 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:25:05 GMT+0800 (China Standard Time)
+2018-11-23 17:25:05,369 INFO 8896 [egg:core] dump config after ready, 10ms
+2018-11-23 17:26:02,687 INFO 18264 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:26:02,766 INFO 18264 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:26:02,766 INFO 18264 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:26:02,766 INFO 18264 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:26:02,767 INFO 18264 [egg-multipart] file mode enable
+2018-11-23 17:26:02,767 INFO 18264 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:26:02,767 INFO 18264 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:26:03,468 INFO 18264 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:26:03,473 INFO 18264 [egg-security] use noopen middleware
+2018-11-23 17:26:03,479 INFO 18264 [egg-security] use nosniff middleware
+2018-11-23 17:26:03,482 INFO 18264 [egg-security] use xssProtection middleware
+2018-11-23 17:26:03,485 INFO 18264 [egg-security] use xframe middleware
+2018-11-23 17:26:03,488 INFO 18264 [egg-security] use dta middleware
+2018-11-23 17:26:03,488 INFO 18264 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:26:03,765 INFO 18264 [egg:core] dump config after load, 10ms
+2018-11-23 17:26:03,795 INFO 18264 [egg-watcher:application] watcher start success
+2018-11-23 17:26:03,796 INFO 18264 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:26:03 GMT+0800 (China Standard Time)
+2018-11-23 17:26:03,807 INFO 18264 [egg:core] dump config after ready, 9ms
+2018-11-23 17:27:32,749 INFO 16212 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:27:32,826 INFO 16212 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:27:32,826 INFO 16212 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:27:32,826 INFO 16212 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:27:32,826 INFO 16212 [egg-multipart] file mode enable
+2018-11-23 17:27:32,826 INFO 16212 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:27:32,826 INFO 16212 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:27:33,525 INFO 16212 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:27:33,529 INFO 16212 [egg-security] use noopen middleware
+2018-11-23 17:27:33,535 INFO 16212 [egg-security] use nosniff middleware
+2018-11-23 17:27:33,538 INFO 16212 [egg-security] use xssProtection middleware
+2018-11-23 17:27:33,541 INFO 16212 [egg-security] use xframe middleware
+2018-11-23 17:27:33,543 INFO 16212 [egg-security] use dta middleware
+2018-11-23 17:27:33,543 INFO 16212 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:27:33,811 INFO 16212 [egg:core] dump config after load, 9ms
+2018-11-23 17:27:33,842 INFO 16212 [egg-watcher:application] watcher start success
+2018-11-23 17:27:33,843 INFO 16212 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:27:33 GMT+0800 (China Standard Time)
+2018-11-23 17:27:33,853 INFO 16212 [egg:core] dump config after ready, 8ms
+2018-11-23 17:28:41,678 INFO 24908 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:28:41,758 INFO 24908 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:28:41,758 INFO 24908 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:28:41,758 INFO 24908 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:28:41,759 INFO 24908 [egg-multipart] file mode enable
+2018-11-23 17:28:41,759 INFO 24908 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:28:41,759 INFO 24908 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:28:42,522 INFO 24908 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:28:42,527 INFO 24908 [egg-security] use noopen middleware
+2018-11-23 17:28:42,534 INFO 24908 [egg-security] use nosniff middleware
+2018-11-23 17:28:42,537 INFO 24908 [egg-security] use xssProtection middleware
+2018-11-23 17:28:42,539 INFO 24908 [egg-security] use xframe middleware
+2018-11-23 17:28:42,542 INFO 24908 [egg-security] use dta middleware
+2018-11-23 17:28:42,542 INFO 24908 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:28:42,825 INFO 24908 [egg:core] dump config after load, 10ms
+2018-11-23 17:28:42,860 INFO 24908 [egg-watcher:application] watcher start success
+2018-11-23 17:28:42,862 INFO 24908 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:28:42 GMT+0800 (China Standard Time)
+2018-11-23 17:28:42,876 INFO 24908 [egg:core] dump config after ready, 13ms
+2018-11-23 17:50:28,857 INFO 23760 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:50:28,960 INFO 23760 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:50:28,960 INFO 23760 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:50:28,960 INFO 23760 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:50:28,960 INFO 23760 [egg-multipart] file mode enable
+2018-11-23 17:50:28,960 INFO 23760 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:50:28,961 INFO 23760 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:50:29,898 INFO 23760 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:50:29,904 INFO 23760 [egg-security] use noopen middleware
+2018-11-23 17:50:29,910 INFO 23760 [egg-security] use nosniff middleware
+2018-11-23 17:50:29,915 INFO 23760 [egg-security] use xssProtection middleware
+2018-11-23 17:50:29,919 INFO 23760 [egg-security] use xframe middleware
+2018-11-23 17:50:29,923 INFO 23760 [egg-security] use dta middleware
+2018-11-23 17:50:29,923 INFO 23760 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:50:30,258 INFO 23760 [egg:core] dump config after load, 9ms
+2018-11-23 17:50:30,294 INFO 23760 [egg-watcher:application] watcher start success
+2018-11-23 17:50:30,296 INFO 23760 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:50:30 GMT+0800 (China Standard Time)
+2018-11-23 17:50:30,309 INFO 23760 [egg:core] dump config after ready, 12ms
+2018-11-23 17:52:28,958 INFO 22988 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:52:29,054 INFO 22988 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:52:29,054 INFO 22988 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:52:29,054 INFO 22988 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:52:29,055 INFO 22988 [egg-multipart] file mode enable
+2018-11-23 17:52:29,055 INFO 22988 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:52:29,055 INFO 22988 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:52:29,819 INFO 22988 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:52:29,823 INFO 22988 [egg-security] use noopen middleware
+2018-11-23 17:52:29,829 INFO 22988 [egg-security] use nosniff middleware
+2018-11-23 17:52:29,832 INFO 22988 [egg-security] use xssProtection middleware
+2018-11-23 17:52:29,836 INFO 22988 [egg-security] use xframe middleware
+2018-11-23 17:52:29,839 INFO 22988 [egg-security] use dta middleware
+2018-11-23 17:52:29,839 INFO 22988 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:52:30,128 INFO 22988 [egg:core] dump config after load, 9ms
+2018-11-23 17:52:30,166 INFO 22988 [egg-watcher:application] watcher start success
+2018-11-23 17:52:30,167 INFO 22988 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:52:30 GMT+0800 (China Standard Time)
+2018-11-23 17:52:30,178 INFO 22988 [egg:core] dump config after ready, 10ms
+2018-11-23 17:54:28,409 INFO 17884 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 17:54:28,490 INFO 17884 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 17:54:28,490 INFO 17884 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 17:54:28,490 INFO 17884 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 17:54:28,491 INFO 17884 [egg-multipart] file mode enable
+2018-11-23 17:54:28,491 INFO 17884 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 17:54:28,492 INFO 17884 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 17:54:29,252 INFO 17884 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 17:54:29,257 INFO 17884 [egg-security] use noopen middleware
+2018-11-23 17:54:29,263 INFO 17884 [egg-security] use nosniff middleware
+2018-11-23 17:54:29,266 INFO 17884 [egg-security] use xssProtection middleware
+2018-11-23 17:54:29,268 INFO 17884 [egg-security] use xframe middleware
+2018-11-23 17:54:29,272 INFO 17884 [egg-security] use dta middleware
+2018-11-23 17:54:29,272 INFO 17884 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 17:54:29,539 INFO 17884 [egg:core] dump config after load, 9ms
+2018-11-23 17:54:29,572 INFO 17884 [egg-watcher:application] watcher start success
+2018-11-23 17:54:29,573 INFO 17884 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 17:54:29 GMT+0800 (China Standard Time)
+2018-11-23 17:54:29,584 INFO 17884 [egg:core] dump config after ready, 10ms
+2018-11-23 18:24:28,849 INFO 17520 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:24:28,941 INFO 17520 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:24:28,941 INFO 17520 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:24:28,941 INFO 17520 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:24:28,942 INFO 17520 [egg-multipart] file mode enable
+2018-11-23 18:24:28,942 INFO 17520 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:24:28,942 INFO 17520 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:24:29,866 INFO 17520 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:24:29,872 INFO 17520 [egg-security] use noopen middleware
+2018-11-23 18:24:29,879 INFO 17520 [egg-security] use nosniff middleware
+2018-11-23 18:24:29,882 INFO 17520 [egg-security] use xssProtection middleware
+2018-11-23 18:24:29,886 INFO 17520 [egg-security] use xframe middleware
+2018-11-23 18:24:29,889 INFO 17520 [egg-security] use dta middleware
+2018-11-23 18:24:29,889 INFO 17520 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:24:30,250 INFO 17520 [egg:core] dump config after load, 10ms
+2018-11-23 18:24:30,279 INFO 17520 [egg-watcher:application] watcher start success
+2018-11-23 18:24:30,280 INFO 17520 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:24:30 GMT+0800 (China Standard Time)
+2018-11-23 18:24:30,293 INFO 17520 [egg:core] dump config after ready, 11ms
+2018-11-23 18:24:35,148 INFO 25828 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:24:35,236 INFO 25828 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:24:35,236 INFO 25828 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:24:35,236 INFO 25828 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:24:35,236 INFO 25828 [egg-multipart] file mode enable
+2018-11-23 18:24:35,236 INFO 25828 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:24:35,236 INFO 25828 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:24:36,071 INFO 25828 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:24:36,078 INFO 25828 [egg-security] use noopen middleware
+2018-11-23 18:24:36,084 INFO 25828 [egg-security] use nosniff middleware
+2018-11-23 18:24:36,088 INFO 25828 [egg-security] use xssProtection middleware
+2018-11-23 18:24:36,093 INFO 25828 [egg-security] use xframe middleware
+2018-11-23 18:24:36,097 INFO 25828 [egg-security] use dta middleware
+2018-11-23 18:24:36,097 INFO 25828 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:24:36,443 INFO 25828 [egg:core] dump config after load, 11ms
+2018-11-23 18:24:35,217 INFO 9876 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:24:35,310 INFO 9876 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:24:35,310 INFO 9876 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:24:35,310 INFO 9876 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:24:35,310 INFO 9876 [egg-multipart] file mode enable
+2018-11-23 18:24:35,310 INFO 9876 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:24:35,310 INFO 9876 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:24:36,137 INFO 9876 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:24:36,144 INFO 9876 [egg-security] use noopen middleware
+2018-11-23 18:24:36,150 INFO 9876 [egg-security] use nosniff middleware
+2018-11-23 18:24:36,153 INFO 9876 [egg-security] use xssProtection middleware
+2018-11-23 18:24:36,157 INFO 9876 [egg-security] use xframe middleware
+2018-11-23 18:24:36,160 INFO 9876 [egg-security] use dta middleware
+2018-11-23 18:24:36,161 INFO 9876 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:24:36,536 INFO 9876 [egg:core] dump config after load, 14ms
+2018-11-23 18:24:36,564 INFO 9876 [egg-watcher:application] watcher start success
+2018-11-23 18:24:36,565 INFO 9876 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:24:36 GMT+0800 (China Standard Time)
+2018-11-23 18:24:36,576 INFO 9876 [egg:core] dump config after ready, 10ms
+2018-11-23 18:27:22,324 INFO 23936 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:27:22,407 INFO 23936 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:27:22,407 INFO 23936 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:27:22,407 INFO 23936 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:27:22,407 INFO 23936 [egg-multipart] file mode enable
+2018-11-23 18:27:22,407 INFO 23936 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:27:22,408 INFO 23936 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:27:23,137 INFO 23936 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:27:23,141 INFO 23936 [egg-security] use noopen middleware
+2018-11-23 18:27:23,147 INFO 23936 [egg-security] use nosniff middleware
+2018-11-23 18:27:23,150 INFO 23936 [egg-security] use xssProtection middleware
+2018-11-23 18:27:23,153 INFO 23936 [egg-security] use xframe middleware
+2018-11-23 18:27:23,156 INFO 23936 [egg-security] use dta middleware
+2018-11-23 18:27:23,156 INFO 23936 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:27:23,434 INFO 23936 [egg:core] dump config after load, 9ms
+2018-11-23 18:27:23,468 INFO 23936 [egg-watcher:application] watcher start success
+2018-11-23 18:27:23,469 INFO 23936 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:27:23 GMT+0800 (China Standard Time)
+2018-11-23 18:27:23,481 INFO 23936 [egg:core] dump config after ready, 11ms
+2018-11-23 18:28:29,926 INFO 14876 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:28:30,006 INFO 14876 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:28:30,006 INFO 14876 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:28:30,006 INFO 14876 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:28:30,007 INFO 14876 [egg-multipart] file mode enable
+2018-11-23 18:28:30,007 INFO 14876 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:28:30,007 INFO 14876 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:28:30,718 INFO 14876 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:28:30,723 INFO 14876 [egg-security] use noopen middleware
+2018-11-23 18:28:30,729 INFO 14876 [egg-security] use nosniff middleware
+2018-11-23 18:28:30,732 INFO 14876 [egg-security] use xssProtection middleware
+2018-11-23 18:28:30,735 INFO 14876 [egg-security] use xframe middleware
+2018-11-23 18:28:30,738 INFO 14876 [egg-security] use dta middleware
+2018-11-23 18:28:30,738 INFO 14876 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:28:31,011 INFO 14876 [egg:core] dump config after load, 9ms
+2018-11-23 18:28:31,042 INFO 14876 [egg-watcher:application] watcher start success
+2018-11-23 18:28:31,043 INFO 14876 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:28:31 GMT+0800 (China Standard Time)
+2018-11-23 18:28:31,054 INFO 14876 [egg:core] dump config after ready, 10ms
+2018-11-23 18:29:22,733 INFO 2428 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:29:22,814 INFO 2428 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:29:22,814 INFO 2428 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:29:22,814 INFO 2428 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:29:22,814 INFO 2428 [egg-multipart] file mode enable
+2018-11-23 18:29:22,814 INFO 2428 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:29:22,814 INFO 2428 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:29:23,520 INFO 2428 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:29:23,524 INFO 2428 [egg-security] use noopen middleware
+2018-11-23 18:29:23,530 INFO 2428 [egg-security] use nosniff middleware
+2018-11-23 18:29:23,533 INFO 2428 [egg-security] use xssProtection middleware
+2018-11-23 18:29:23,535 INFO 2428 [egg-security] use xframe middleware
+2018-11-23 18:29:23,538 INFO 2428 [egg-security] use dta middleware
+2018-11-23 18:29:23,539 INFO 2428 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:29:23,817 INFO 2428 [egg:core] dump config after load, 12ms
+2018-11-23 18:29:23,853 INFO 2428 [egg-watcher:application] watcher start success
+2018-11-23 18:29:23,854 INFO 2428 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:29:23 GMT+0800 (China Standard Time)
+2018-11-23 18:29:23,866 INFO 2428 [egg:core] dump config after ready, 11ms
+2018-11-23 18:29:28,013 INFO 22976 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:29:28,090 INFO 22976 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:29:28,090 INFO 22976 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:29:28,090 INFO 22976 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:29:28,090 INFO 22976 [egg-multipart] file mode enable
+2018-11-23 18:29:28,090 INFO 22976 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:29:28,091 INFO 22976 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:29:28,838 INFO 22976 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:29:28,843 INFO 22976 [egg-security] use noopen middleware
+2018-11-23 18:29:28,851 INFO 22976 [egg-security] use nosniff middleware
+2018-11-23 18:29:28,854 INFO 22976 [egg-security] use xssProtection middleware
+2018-11-23 18:29:28,857 INFO 22976 [egg-security] use xframe middleware
+2018-11-23 18:29:28,860 INFO 22976 [egg-security] use dta middleware
+2018-11-23 18:29:28,860 INFO 22976 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:29:29,192 INFO 22976 [egg:core] dump config after load, 10ms
+2018-11-23 18:29:29,226 INFO 22976 [egg-watcher:application] watcher start success
+2018-11-23 18:29:29,227 INFO 22976 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:29:29 GMT+0800 (China Standard Time)
+2018-11-23 18:29:29,238 INFO 22976 [egg:core] dump config after ready, 10ms
+2018-11-23 18:30:34,521 INFO 25920 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:30:34,610 INFO 25920 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:30:34,610 INFO 25920 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:30:34,610 INFO 25920 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:30:34,611 INFO 25920 [egg-multipart] file mode enable
+2018-11-23 18:30:34,611 INFO 25920 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:30:34,612 INFO 25920 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:30:35,404 INFO 25920 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:30:35,410 INFO 25920 [egg-security] use noopen middleware
+2018-11-23 18:30:35,417 INFO 25920 [egg-security] use nosniff middleware
+2018-11-23 18:30:35,420 INFO 25920 [egg-security] use xssProtection middleware
+2018-11-23 18:30:35,424 INFO 25920 [egg-security] use xframe middleware
+2018-11-23 18:30:35,427 INFO 25920 [egg-security] use dta middleware
+2018-11-23 18:30:35,427 INFO 25920 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:30:35,698 INFO 25920 [egg:core] dump config after load, 9ms
+2018-11-23 18:30:35,732 INFO 25920 [egg-watcher:application] watcher start success
+2018-11-23 18:30:35,733 INFO 25920 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:30:35 GMT+0800 (China Standard Time)
+2018-11-23 18:30:35,745 INFO 25920 [egg:core] dump config after ready, 10ms
+2018-11-23 18:31:34,727 INFO 26152 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:31:34,824 INFO 26152 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:31:34,824 INFO 26152 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:31:34,824 INFO 26152 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:31:34,824 INFO 26152 [egg-multipart] file mode enable
+2018-11-23 18:31:34,824 INFO 26152 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:31:34,824 INFO 26152 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:31:35,634 INFO 26152 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:31:35,639 INFO 26152 [egg-security] use noopen middleware
+2018-11-23 18:31:35,645 INFO 26152 [egg-security] use nosniff middleware
+2018-11-23 18:31:35,648 INFO 26152 [egg-security] use xssProtection middleware
+2018-11-23 18:31:35,651 INFO 26152 [egg-security] use xframe middleware
+2018-11-23 18:31:35,654 INFO 26152 [egg-security] use dta middleware
+2018-11-23 18:31:35,654 INFO 26152 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:31:35,959 INFO 26152 [egg:core] dump config after load, 9ms
+2018-11-23 18:31:35,994 INFO 26152 [egg-watcher:application] watcher start success
+2018-11-23 18:31:35,995 INFO 26152 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:31:35 GMT+0800 (China Standard Time)
+2018-11-23 18:31:36,007 INFO 26152 [egg:core] dump config after ready, 10ms
+2018-11-23 18:31:54,852 INFO 14544 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:31:54,928 INFO 14544 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:31:54,928 INFO 14544 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:31:54,928 INFO 14544 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:31:54,928 INFO 14544 [egg-multipart] file mode enable
+2018-11-23 18:31:54,928 INFO 14544 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:31:54,929 INFO 14544 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:31:55,668 INFO 14544 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:31:55,673 INFO 14544 [egg-security] use noopen middleware
+2018-11-23 18:31:55,679 INFO 14544 [egg-security] use nosniff middleware
+2018-11-23 18:31:55,682 INFO 14544 [egg-security] use xssProtection middleware
+2018-11-23 18:31:55,685 INFO 14544 [egg-security] use xframe middleware
+2018-11-23 18:31:55,688 INFO 14544 [egg-security] use dta middleware
+2018-11-23 18:31:55,688 INFO 14544 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:31:55,957 INFO 14544 [egg:core] dump config after load, 8ms
+2018-11-23 18:31:55,987 INFO 14544 [egg-watcher:application] watcher start success
+2018-11-23 18:31:55,988 INFO 14544 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:31:55 GMT+0800 (China Standard Time)
+2018-11-23 18:31:56,001 INFO 14544 [egg:core] dump config after ready, 11ms
+2018-11-23 18:34:06,717 INFO 7188 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:34:06,795 INFO 7188 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:34:06,795 INFO 7188 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:34:06,795 INFO 7188 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:34:06,795 INFO 7188 [egg-multipart] file mode enable
+2018-11-23 18:34:06,795 INFO 7188 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:34:06,795 INFO 7188 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:34:07,576 INFO 7188 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:34:07,580 INFO 7188 [egg-security] use noopen middleware
+2018-11-23 18:34:07,587 INFO 7188 [egg-security] use nosniff middleware
+2018-11-23 18:34:07,592 INFO 7188 [egg-security] use xssProtection middleware
+2018-11-23 18:34:07,595 INFO 7188 [egg-security] use xframe middleware
+2018-11-23 18:34:07,597 INFO 7188 [egg-security] use dta middleware
+2018-11-23 18:34:07,597 INFO 7188 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:34:07,939 INFO 7188 [egg:core] dump config after load, 11ms
+2018-11-23 18:34:07,978 INFO 7188 [egg-watcher:application] watcher start success
+2018-11-23 18:34:07,979 INFO 7188 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:34:07 GMT+0800 (China Standard Time)
+2018-11-23 18:34:07,993 INFO 7188 [egg:core] dump config after ready, 12ms
+2018-11-23 18:39:00,232 INFO 1252 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:39:00,311 INFO 1252 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:39:00,311 INFO 1252 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:39:00,311 INFO 1252 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:39:00,312 INFO 1252 [egg-multipart] file mode enable
+2018-11-23 18:39:00,312 INFO 1252 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:39:00,312 INFO 1252 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:39:01,075 INFO 1252 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:39:01,079 INFO 1252 [egg-security] use noopen middleware
+2018-11-23 18:39:01,085 INFO 1252 [egg-security] use nosniff middleware
+2018-11-23 18:39:01,088 INFO 1252 [egg-security] use xssProtection middleware
+2018-11-23 18:39:01,091 INFO 1252 [egg-security] use xframe middleware
+2018-11-23 18:39:01,095 INFO 1252 [egg-security] use dta middleware
+2018-11-23 18:39:01,095 INFO 1252 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:39:01,378 INFO 1252 [egg:core] dump config after load, 9ms
+2018-11-23 18:39:01,407 INFO 1252 [egg-watcher:application] watcher start success
+2018-11-23 18:39:01,408 INFO 1252 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:39:01 GMT+0800 (China Standard Time)
+2018-11-23 18:39:01,420 INFO 1252 [egg:core] dump config after ready, 11ms
+2018-11-23 18:40:17,045 INFO 25060 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:40:17,121 INFO 25060 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:40:17,121 INFO 25060 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:40:17,121 INFO 25060 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:40:17,122 INFO 25060 [egg-multipart] file mode enable
+2018-11-23 18:40:17,122 INFO 25060 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:40:17,122 INFO 25060 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:40:17,850 INFO 25060 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:40:17,855 INFO 25060 [egg-security] use noopen middleware
+2018-11-23 18:40:17,862 INFO 25060 [egg-security] use nosniff middleware
+2018-11-23 18:40:17,867 INFO 25060 [egg-security] use xssProtection middleware
+2018-11-23 18:40:17,870 INFO 25060 [egg-security] use xframe middleware
+2018-11-23 18:40:17,874 INFO 25060 [egg-security] use dta middleware
+2018-11-23 18:40:17,874 INFO 25060 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:40:18,149 INFO 25060 [egg:core] dump config after load, 8ms
+2018-11-23 18:40:18,182 INFO 25060 [egg-watcher:application] watcher start success
+2018-11-23 18:40:18,183 INFO 25060 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:40:18 GMT+0800 (China Standard Time)
+2018-11-23 18:40:18,197 INFO 25060 [egg:core] dump config after ready, 13ms
+2018-11-23 18:40:34,963 INFO 13112 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:40:35,056 INFO 13112 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:40:35,056 INFO 13112 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:40:35,056 INFO 13112 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:40:35,057 INFO 13112 [egg-multipart] file mode enable
+2018-11-23 18:40:35,057 INFO 13112 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:40:35,057 INFO 13112 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:40:35,829 INFO 13112 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:40:35,833 INFO 13112 [egg-security] use noopen middleware
+2018-11-23 18:40:35,840 INFO 13112 [egg-security] use nosniff middleware
+2018-11-23 18:40:35,843 INFO 13112 [egg-security] use xssProtection middleware
+2018-11-23 18:40:35,846 INFO 13112 [egg-security] use xframe middleware
+2018-11-23 18:40:35,848 INFO 13112 [egg-security] use dta middleware
+2018-11-23 18:40:35,848 INFO 13112 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:40:36,148 INFO 13112 [egg:core] dump config after load, 11ms
+2018-11-23 18:40:36,184 INFO 13112 [egg-watcher:application] watcher start success
+2018-11-23 18:40:36,185 INFO 13112 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:40:36 GMT+0800 (China Standard Time)
+2018-11-23 18:40:36,201 INFO 13112 [egg:core] dump config after ready, 14ms
+2018-11-23 18:42:29,261 INFO 952 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:42:29,336 INFO 952 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:42:29,336 INFO 952 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:42:29,336 INFO 952 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:42:29,336 INFO 952 [egg-multipart] file mode enable
+2018-11-23 18:42:29,336 INFO 952 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:42:29,337 INFO 952 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:42:30,058 INFO 952 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:42:30,063 INFO 952 [egg-security] use noopen middleware
+2018-11-23 18:42:30,069 INFO 952 [egg-security] use nosniff middleware
+2018-11-23 18:42:30,073 INFO 952 [egg-security] use xssProtection middleware
+2018-11-23 18:42:30,076 INFO 952 [egg-security] use xframe middleware
+2018-11-23 18:42:30,079 INFO 952 [egg-security] use dta middleware
+2018-11-23 18:42:30,079 INFO 952 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:42:30,363 INFO 952 [egg:core] dump config after load, 10ms
+2018-11-23 18:42:30,398 INFO 952 [egg-watcher:application] watcher start success
+2018-11-23 18:42:30,400 INFO 952 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:42:30 GMT+0800 (China Standard Time)
+2018-11-23 18:42:30,410 INFO 952 [egg:core] dump config after ready, 9ms
+2018-11-23 18:42:58,128 INFO 25528 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:42:58,207 INFO 25528 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:42:58,207 INFO 25528 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:42:58,207 INFO 25528 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:42:58,207 INFO 25528 [egg-multipart] file mode enable
+2018-11-23 18:42:58,207 INFO 25528 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:42:58,208 INFO 25528 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:42:58,924 INFO 25528 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:42:58,928 INFO 25528 [egg-security] use noopen middleware
+2018-11-23 18:42:58,934 INFO 25528 [egg-security] use nosniff middleware
+2018-11-23 18:42:58,937 INFO 25528 [egg-security] use xssProtection middleware
+2018-11-23 18:42:58,940 INFO 25528 [egg-security] use xframe middleware
+2018-11-23 18:42:58,943 INFO 25528 [egg-security] use dta middleware
+2018-11-23 18:42:58,943 INFO 25528 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:42:59,229 INFO 25528 [egg:core] dump config after load, 10ms
+2018-11-23 18:42:59,260 INFO 25528 [egg-watcher:application] watcher start success
+2018-11-23 18:42:59,261 INFO 25528 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:42:59 GMT+0800 (China Standard Time)
+2018-11-23 18:42:59,273 INFO 25528 [egg:core] dump config after ready, 11ms
+2018-11-23 18:46:00,745 INFO 24244 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:46:00,827 INFO 24244 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:46:00,827 INFO 24244 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:46:00,827 INFO 24244 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:46:00,827 INFO 24244 [egg-multipart] file mode enable
+2018-11-23 18:46:00,827 INFO 24244 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:46:00,828 INFO 24244 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:46:01,559 INFO 24244 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:46:01,563 INFO 24244 [egg-security] use noopen middleware
+2018-11-23 18:46:01,569 INFO 24244 [egg-security] use nosniff middleware
+2018-11-23 18:46:01,572 INFO 24244 [egg-security] use xssProtection middleware
+2018-11-23 18:46:01,575 INFO 24244 [egg-security] use xframe middleware
+2018-11-23 18:46:01,578 INFO 24244 [egg-security] use dta middleware
+2018-11-23 18:46:01,578 INFO 24244 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:46:01,858 INFO 24244 [egg:core] dump config after load, 9ms
+2018-11-23 18:46:01,892 INFO 24244 [egg-watcher:application] watcher start success
+2018-11-23 18:46:01,893 INFO 24244 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:46:01 GMT+0800 (China Standard Time)
+2018-11-23 18:46:01,905 INFO 24244 [egg:core] dump config after ready, 11ms
+2018-11-23 18:46:37,627 INFO 17892 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:46:37,704 INFO 17892 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:46:37,704 INFO 17892 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:46:37,704 INFO 17892 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:46:37,704 INFO 17892 [egg-multipart] file mode enable
+2018-11-23 18:46:37,704 INFO 17892 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:46:37,704 INFO 17892 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:46:38,488 INFO 17892 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:46:38,495 INFO 17892 [egg-security] use noopen middleware
+2018-11-23 18:46:38,502 INFO 17892 [egg-security] use nosniff middleware
+2018-11-23 18:46:38,506 INFO 17892 [egg-security] use xssProtection middleware
+2018-11-23 18:46:38,509 INFO 17892 [egg-security] use xframe middleware
+2018-11-23 18:46:38,513 INFO 17892 [egg-security] use dta middleware
+2018-11-23 18:46:38,513 INFO 17892 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:46:38,840 INFO 17892 [egg:core] dump config after load, 8ms
+2018-11-23 18:46:38,869 INFO 17892 [egg-watcher:application] watcher start success
+2018-11-23 18:46:38,870 INFO 17892 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:46:38 GMT+0800 (China Standard Time)
+2018-11-23 18:46:38,882 INFO 17892 [egg:core] dump config after ready, 11ms
+2018-11-23 18:48:01,772 INFO 17048 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:48:01,852 INFO 17048 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:48:01,852 INFO 17048 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:48:01,852 INFO 17048 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:48:01,852 INFO 17048 [egg-multipart] file mode enable
+2018-11-23 18:48:01,852 INFO 17048 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:48:01,853 INFO 17048 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:48:02,587 INFO 17048 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:48:02,593 INFO 17048 [egg-security] use noopen middleware
+2018-11-23 18:48:02,598 INFO 17048 [egg-security] use nosniff middleware
+2018-11-23 18:48:02,601 INFO 17048 [egg-security] use xssProtection middleware
+2018-11-23 18:48:02,604 INFO 17048 [egg-security] use xframe middleware
+2018-11-23 18:48:02,609 INFO 17048 [egg-security] use dta middleware
+2018-11-23 18:48:02,609 INFO 17048 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:48:02,883 INFO 17048 [egg:core] dump config after load, 9ms
+2018-11-23 18:48:02,919 INFO 17048 [egg-watcher:application] watcher start success
+2018-11-23 18:48:02,920 INFO 17048 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:48:02 GMT+0800 (China Standard Time)
+2018-11-23 18:48:02,932 INFO 17048 [egg:core] dump config after ready, 11ms
+2018-11-23 18:49:14,622 INFO 20596 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:49:14,706 INFO 20596 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:49:14,706 INFO 20596 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:49:14,706 INFO 20596 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:49:14,707 INFO 20596 [egg-multipart] file mode enable
+2018-11-23 18:49:14,707 INFO 20596 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:49:14,707 INFO 20596 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:49:15,492 INFO 20596 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:49:15,497 INFO 20596 [egg-security] use noopen middleware
+2018-11-23 18:49:15,503 INFO 20596 [egg-security] use nosniff middleware
+2018-11-23 18:49:15,506 INFO 20596 [egg-security] use xssProtection middleware
+2018-11-23 18:49:15,509 INFO 20596 [egg-security] use xframe middleware
+2018-11-23 18:49:15,513 INFO 20596 [egg-security] use dta middleware
+2018-11-23 18:49:15,513 INFO 20596 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:49:15,789 INFO 20596 [egg:core] dump config after load, 9ms
+2018-11-23 18:49:15,825 INFO 20596 [egg-watcher:application] watcher start success
+2018-11-23 18:49:15,826 INFO 20596 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:49:15 GMT+0800 (China Standard Time)
+2018-11-23 18:49:15,839 INFO 20596 [egg:core] dump config after ready, 11ms
+2018-11-23 18:49:58,800 INFO 17896 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:49:58,877 INFO 17896 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:49:58,877 INFO 17896 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:49:58,877 INFO 17896 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:49:58,877 INFO 17896 [egg-multipart] file mode enable
+2018-11-23 18:49:58,877 INFO 17896 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:49:58,878 INFO 17896 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:49:59,584 INFO 17896 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:49:59,588 INFO 17896 [egg-security] use noopen middleware
+2018-11-23 18:49:59,595 INFO 17896 [egg-security] use nosniff middleware
+2018-11-23 18:49:59,598 INFO 17896 [egg-security] use xssProtection middleware
+2018-11-23 18:49:59,601 INFO 17896 [egg-security] use xframe middleware
+2018-11-23 18:49:59,604 INFO 17896 [egg-security] use dta middleware
+2018-11-23 18:49:59,604 INFO 17896 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:49:59,879 INFO 17896 [egg:core] dump config after load, 11ms
+2018-11-23 18:49:59,912 INFO 17896 [egg-watcher:application] watcher start success
+2018-11-23 18:49:59,913 INFO 17896 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:49:59 GMT+0800 (China Standard Time)
+2018-11-23 18:49:59,925 INFO 17896 [egg:core] dump config after ready, 10ms
+2018-11-23 18:51:44,525 INFO 2428 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:51:44,602 INFO 2428 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:51:44,602 INFO 2428 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:51:44,602 INFO 2428 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:51:44,603 INFO 2428 [egg-multipart] file mode enable
+2018-11-23 18:51:44,603 INFO 2428 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:51:44,603 INFO 2428 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:51:45,372 INFO 2428 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:51:45,379 INFO 2428 [egg-security] use noopen middleware
+2018-11-23 18:51:45,386 INFO 2428 [egg-security] use nosniff middleware
+2018-11-23 18:51:45,390 INFO 2428 [egg-security] use xssProtection middleware
+2018-11-23 18:51:45,393 INFO 2428 [egg-security] use xframe middleware
+2018-11-23 18:51:45,396 INFO 2428 [egg-security] use dta middleware
+2018-11-23 18:51:45,396 INFO 2428 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:51:45,690 INFO 2428 [egg:core] dump config after load, 10ms
+2018-11-23 18:51:45,727 INFO 2428 [egg-watcher:application] watcher start success
+2018-11-23 18:51:45,728 INFO 2428 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:51:45 GMT+0800 (China Standard Time)
+2018-11-23 18:51:45,740 INFO 2428 [egg:core] dump config after ready, 11ms
+2018-11-23 18:52:39,050 INFO 23556 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-23 18:52:39,150 INFO 23556 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2018-11-23 18:52:39,150 INFO 23556 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-11-23 18:52:39,150 INFO 23556 [egg-schedule]: register schedule C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-11-23 18:52:39,151 INFO 23556 [egg-multipart] file mode enable
+2018-11-23 18:52:39,151 INFO 23556 [egg-multipart] will save temporary files to "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo", cleanup job cron: "0 30 4 * * *"
+2018-11-23 18:52:39,151 INFO 23556 [egg-mysql] connecting root@127.0.0.1:3306/shop
+2018-11-23 18:52:39,968 INFO 23556 [egg-static] starting static serve /public/ -> C:\Users\linge l yu\Desktop\egg-example\app\public
+2018-11-23 18:52:39,973 INFO 23556 [egg-security] use noopen middleware
+2018-11-23 18:52:39,980 INFO 23556 [egg-security] use nosniff middleware
+2018-11-23 18:52:39,983 INFO 23556 [egg-security] use xssProtection middleware
+2018-11-23 18:52:39,986 INFO 23556 [egg-security] use xframe middleware
+2018-11-23 18:52:39,989 INFO 23556 [egg-security] use dta middleware
+2018-11-23 18:52:39,990 INFO 23556 [egg-security] compose 5 middlewares into one security middleware
+2018-11-23 18:52:40,289 INFO 23556 [egg:core] dump config after load, 9ms
+2018-11-23 18:52:40,321 INFO 23556 [egg-watcher:application] watcher start success
+2018-11-23 18:52:40,322 INFO 23556 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 23 2018 18:52:40 GMT+0800 (China Standard Time)
+2018-11-23 18:52:40,333 INFO 23556 [egg:core] dump config after ready, 10ms
+2018-11-23 18:57:22,509 WARN 23556 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-26 10:00:47,581 WARN 23556 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-26 10:00:48,719 INFO 23556 [egg-logrotator] start remove C:\Users\linge l yu\Desktop\egg-example\logs\demo files: common-error.log.2018-10-25, demo-web.log.2018-10-25, egg-agent.log.2018-10-25, egg-schedule.log.2018-10-25, egg-web.log.2018-10-25
+2018-11-26 10:00:48,726 INFO 23556 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false&disable=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\LINGEL~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\demo"
+2018-11-26 10:00:49,626 INFO 23556 [egg-logrotator] clean all log before 31 days
+2018-11-26 10:00:49,627 INFO 23556 [-/127.0.0.1/-/2006ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 2006ms
+2018-11-26 10:00:50,192 INFO 23556 [-/127.0.0.1/-/1472ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false&disable=false] [egg-multipart:CleanTmpdir] end
+2018-11-26 10:00:50,193 INFO 23556 [-/127.0.0.1/-/1473ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false&disable=false] [egg-schedule] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 1472ms
+2018-11-26 10:00:50,731 INFO 23556 [egg-logrotator] broadcast log-reload
+2018-11-26 10:00:50,733 INFO 23556 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\common-error.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\common-error.log.2018-11-25","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\demo-web.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\demo-web.log.2018-11-25","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-web.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-web.log.2018-11-25","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-schedule.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-schedule.log.2018-11-25","C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-agent.log -> C:\\Users\\linge l yu\\Desktop\\egg-example\\logs\\demo\\egg-agent.log.2018-11-25"]
+2018-11-26 10:00:50,733 INFO 23556 [-/127.0.0.1/-/3109ms SCHEDULE /__schedule?path=C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 3109ms

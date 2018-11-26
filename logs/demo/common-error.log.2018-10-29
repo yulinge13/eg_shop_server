@@ -1,0 +1,372 @@
+2018-10-29 10:17:31,835 ERROR 32704 [-/::1/-/10ms GET /findLists?pageNum=1&pageSize=10&search=+] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like productName = '% %'' at line 1
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    sql: select * from product limit 0, 10 like productName = '% %'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like productName = '% %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from product limit 0, 10 like productName = '% %'"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_PARSE_ERRORError"
+pid: 32704
+hostname: LYU129PRI2
+
+2018-10-29 10:18:22,518 ERROR 37532 [-/::1/-/18ms GET /findLists?pageNum=1&pageSize=10&search=+] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like productName = '% %' limit 0, 10' at line 1
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    sql: select * from product like productName = '% %' limit 0, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like productName = '% %' limit 0, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from product like productName = '% %' limit 0, 10"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_PARSE_ERRORError"
+pid: 37532
+hostname: LYU129PRI2
+
+2018-10-29 10:18:24,850 ERROR 564 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 564
+hostname: LYU129PRI2
+
+2018-10-29 10:25:21,464 ERROR 25336 [-/::1/-/12ms GET /findLists?pageNum=1&pageSize=10&search=+] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like productName = '% %' limit 0, 10' at line 1
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    sql: select * from product like productName = '% %' limit 0, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like productName = '% %' limit 0, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from product like productName = '% %' limit 0, 10"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_PARSE_ERRORError"
+pid: 25336
+hostname: LYU129PRI2
+
+2018-10-29 13:22:40,262 ERROR 564 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 564
+hostname: LYU129PRI2
+
+2018-10-29 13:39:51,124 ERROR 29508 [-/::1/-/10ms GET /getClass?classFirstId=2] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cfs.classFirstId = '2' order by cf.name desc' at line 4
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    sql: 
+        SELECT
+            cfs.*,
+            cf.NAME firstClassName,
+            cs.NAME secClassName 
+        FROM
+            class_first_sec cfs
+            LEFT JOIN classificationfirst cf ON cfs.classFirstId = cf.id
+            LEFT JOIN classificationsec cs ON cfs.classSecId = cs.idwhere cfs.classFirstId = '2' order by cf.name desc
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cfs.classFirstId = '2' order by cf.name desc' at line 4"
+sqlState: "42000"
+index: 0
+sql: "\n        SELECT\n            cfs.*,\n            cf.NAME firstClassName,\n            cs.NAME secClassName \n        FROM\n            class_first_sec cfs\n            LEFT JOIN classificationfirst cf ON cfs.classFirstId = cf.id\n            LEFT JOIN classificationsec cs ON cfs.classSecId = cs.idwhere cfs.classFirstId = '2' order by cf.name desc"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_PARSE_ERRORError"
+pid: 29508
+hostname: LYU129PRI2
+
+2018-10-29 13:39:55,816 ERROR 29508 [-/::1/-/11ms GET /getClass?classFirstId=1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cfs.classFirstId = '1' order by cf.name desc' at line 4
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    sql: 
+        SELECT
+            cfs.*,
+            cf.NAME firstClassName,
+            cs.NAME secClassName 
+        FROM
+            class_first_sec cfs
+            LEFT JOIN classificationfirst cf ON cfs.classFirstId = cf.id
+            LEFT JOIN classificationsec cs ON cfs.classSecId = cs.idwhere cfs.classFirstId = '1' order by cf.name desc
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cfs.classFirstId = '1' order by cf.name desc' at line 4"
+sqlState: "42000"
+index: 0
+sql: "\n        SELECT\n            cfs.*,\n            cf.NAME firstClassName,\n            cs.NAME secClassName \n        FROM\n            class_first_sec cfs\n            LEFT JOIN classificationfirst cf ON cfs.classFirstId = cf.id\n            LEFT JOIN classificationsec cs ON cfs.classSecId = cs.idwhere cfs.classFirstId = '1' order by cf.name desc"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_PARSE_ERRORError"
+pid: 29508
+hostname: LYU129PRI2
+
+2018-10-29 13:47:43,672 ERROR 8040 [-/::1/-/9ms GET /getClass?classFirstId=2] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cfs.classFirstId = '2'' at line 4
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\co\index.js:54:5
+    sql: 
+        SELECT
+            cfs.*,
+            cf.NAME firstClassName,
+            cs.NAME secClassName 
+        FROM
+            class_first_sec cfs
+            LEFT JOIN classificationfirst cf ON cfs.classFirstId = cf.id
+            LEFT JOIN classificationsec cs ON cfs.classSecId = cs.idwhere cfs.classFirstId = '2'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cfs.classFirstId = '2'' at line 4"
+sqlState: "42000"
+index: 0
+sql: "\n        SELECT\n            cfs.*,\n            cf.NAME firstClassName,\n            cs.NAME secClassName \n        FROM\n            class_first_sec cfs\n            LEFT JOIN classificationfirst cf ON cfs.classFirstId = cf.id\n            LEFT JOIN classificationsec cs ON cfs.classSecId = cs.idwhere cfs.classFirstId = '2'"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_PARSE_ERRORError"
+pid: 8040
+hostname: LYU129PRI2
+
+2018-10-29 14:22:47,047 ERROR 564 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 564
+hostname: LYU129PRI2
+
+2018-10-29 15:11:33,174 ERROR 30292 [-/::1/-/86ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:25:17)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 30292
+hostname: LYU129PRI2
+
+2018-10-29 15:14:12,531 ERROR 35732 [-/::1/-/68ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:27:17)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 35732
+hostname: LYU129PRI2
+
+2018-10-29 15:14:52,345 ERROR 27156 [-/::1/-/65ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:27:17)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 27156
+hostname: LYU129PRI2
+
+2018-10-29 15:15:25,769 ERROR 29228 [-/::1/-/64ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:28:17)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 29228
+hostname: LYU129PRI2
+
+2018-10-29 15:15:55,659 ERROR 24040 [-/::1/-/67ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at MenuService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\service\product.js:31:13)
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:30:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 24040
+hostname: LYU129PRI2
+
+2018-10-29 15:16:05,392 ERROR 24040 [-/::1/-/1ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at MenuService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\service\product.js:31:13)
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:30:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 24040
+hostname: LYU129PRI2
+
+2018-10-29 15:16:22,808 ERROR 35360 [-/::1/-/65ms POST /addProduct] nodejs.TypeError: Cannot destructure property `productName` of 'undefined' or 'null'.
+    at MenuService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\service\product.js:31:13)
+    at ProductService.addProduct (C:\Users\linge l yu\Desktop\egg-example\app\controller\product.js:30:51)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 35360
+hostname: LYU129PRI2
+
+2018-10-30 09:59:06,262 ERROR 564 nodejs.ClusterClientNoResponseError: client no response in 46137128ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\linge l yu\Desktop\egg-example\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 564
+hostname: LYU129PRI2
+

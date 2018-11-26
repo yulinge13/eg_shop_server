@@ -1,0 +1,154 @@
+2018-11-02 11:31:16,246 WARN 33040 [-/::1/-/15ms POST /upload] nodejs.Error: Invalid filename: Confirmation centre -FAQ 1031 .xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 33040
+hostname: LYU129PRI2
+
+2018-11-02 14:15:15,627 WARN 32656 [-/::1/-/11ms POST /upload] nodejs.Error: Invalid filename: Confirmation centre -FAQ 1031 .xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 32656
+hostname: LYU129PRI2
+
+2018-11-02 14:23:20,198 WARN 27892 [-/::1/-/9ms POST /upload] nodejs.Error: Invalid filename: Confirmation centre -FAQ 1031 .xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 27892
+hostname: LYU129PRI2
+
+2018-11-02 14:36:51,194 WARN 35772 [-/::1/-/12ms POST /upload] nodejs.Error: Invalid filename: Confirmation centre -FAQ 1031 .xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 35772
+hostname: LYU129PRI2
+
+2018-11-02 14:38:04,585 WARN 20272 [-/::1/-/12ms POST /upload] nodejs.Error: Invalid filename: Confirmation centre -FAQ 1031 .xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 20272
+hostname: LYU129PRI2
+
+2018-11-02 14:43:30,442 WARN 26080 [-/::1/-/12ms POST /upload] nodejs.Error: Invalid filename: Confirmation centre -FAQ 1031 .xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 26080
+hostname: LYU129PRI2
+
+2018-11-02 14:53:09,909 WARN 26080 [-/::1/-/3ms POST /upload] nodejs.Error: Invalid filename: Mars需求-原型-设计-开发进度10.15-10.30.xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\egg-example\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\egg-example\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\egg-example\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 26080
+hostname: LYU129PRI2
+

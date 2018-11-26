@@ -1,0 +1,40 @@
+2018-10-31 17:12:21,699 INFO 29924 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-01 00:00:00.000
+2018-10-31 17:12:21,700 INFO 29924 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-01 00:00:01.000
+2018-10-31 17:43:43,301 INFO 39932 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-01 00:00:00.000
+2018-10-31 17:43:43,302 INFO 39932 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-01 00:00:01.000
+2018-10-31 17:44:34,833 INFO 18860 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-01 00:00:00.000
+2018-10-31 17:44:34,834 INFO 18860 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-01 00:00:01.000
+2018-11-02 11:26:10,066 INFO 38804 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-03 00:00:00.000
+2018-11-02 11:26:10,066 INFO 38804 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-03 00:00:01.000
+2018-11-02 14:39:08,937 INFO 20128 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-03 04:30:00.000
+2018-11-02 14:39:08,937 INFO 20128 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-03 00:00:00.000
+2018-11-02 14:39:08,938 INFO 20128 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-03 00:00:01.000
+2018-11-02 15:48:47,420 INFO 20668 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-03 04:30:00.000
+2018-11-02 15:48:47,421 INFO 20668 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-03 00:00:00.000
+2018-11-02 15:48:47,421 INFO 20668 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-03 00:00:01.000
+2018-11-02 16:02:22,779 INFO 24752 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-03 04:30:00.000
+2018-11-02 16:02:22,780 INFO 24752 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-03 00:00:00.000
+2018-11-02 16:02:22,780 INFO 24752 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-03 00:00:01.000
+2018-11-02 16:15:35,625 INFO 38944 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-03 04:30:00.000
+2018-11-02 16:15:35,626 INFO 38944 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-03 00:00:00.000
+2018-11-02 16:15:35,626 INFO 38944 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-03 00:00:01.000
+2018-11-02 16:18:42,739 INFO 16908 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-03 04:30:00.000
+2018-11-02 16:18:42,739 INFO 16908 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-03 00:00:00.000
+2018-11-02 16:18:42,740 INFO 16908 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-03 00:00:01.000
+2018-11-05 16:56:56,030 INFO 11716 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-06 04:30:00.000
+2018-11-05 16:56:56,031 INFO 11716 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-06 00:00:00.000
+2018-11-05 16:56:56,031 INFO 11716 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-06 00:00:01.000
+2018-11-06 11:00:53,513 INFO 11716 [154147325351268556468968995] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-11-06 11:00:53,521 INFO 11716 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-11-07 00:00:00.000
+2018-11-06 11:00:53,521 INFO 11716 [154147325352168556477381714] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-11-06 11:00:53,526 INFO 11716 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-11-07 00:00:01.000
+2018-11-06 11:00:53,526 INFO 11716 [154147325352668556482432019] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js triggered, send random by agent
+2018-11-06 11:00:53,530 INFO 11716 [Timer] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute at 2018-11-07 04:30:00.000
+2018-11-06 11:00:53,554 INFO 10644 [154147325351268556468968995] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-11-06 11:00:53,554 INFO 10644 [154147325351268556468968995] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-11-06 11:00:53,561 INFO 10644 [154147325352168556477381714] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-11-06 11:00:53,561 INFO 10644 [154147325352168556477381714] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-11-06 11:00:54,025 INFO 10644 [154147325351268556468968995] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 471ms
+2018-11-06 11:00:54,027 INFO 10644 [154147325352668556482432019] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js task received by app
+2018-11-06 11:00:54,027 INFO 10644 [154147325352668556482432019] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2018-11-06 11:00:55,684 INFO 10644 [154147325352168556477381714] C:\Users\linge l yu\Desktop\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 2123ms

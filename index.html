@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        li{
+            height: 50px;
+            width: 200px;
+            line-height: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="name">
+    <input type="text" id="age">
+    <button id="btn">add</button>
+    <button id="upBtn">update</button>
+    <button id="deleteBtn">delete</button>
+    <ul id="ul">
+    </ul>
+    <form id="form3">
+        <div>
+            <input type="text" id="customName" placeholder="自定义文件名" />
+        </div>
+        <div>
+            <input type="file" class="file" />
+        </div>
+        <div>
+            <input type="submit" value="上传">
+        </div>
+    </form>
+</body>
+
+</html>
+<!-- <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+    $('form').submit(function (e) {
+        e.preventDefault();
+        const formData = new FormData();
+        const fileList = $(this).find('.file')[0].files;
+        let index = 0;
+        for (let key of fileList) {
+            formData.append('file' + index, key);
+            index++
+        }
+        formData.append('isAjax', 'yes');
+        formData.append('customName', $(this).find('#customName').val() || '');
+        console.log(formData)
+        $.ajax({
+            url: 'http://localhost:7001/upload',
+            data: formData,
+            method: 'POST',
+            contentType: false,
+            processData: false,
+            success: function (res) {
+                console.log(res)
+                let img = document.createElement('img')
+                img.src = `http://localhost:7001${res.url}`
+                $('body').append(img)
+            },
+            error: function (responseStr) {
+                alert("error", responseStr);
+            }
+        });
+    });
+</script>
+<script>
+    let id = 1
+    $('#ul').on('click', 'button', function () {
+        var id = $(this).attr('id')
+        $.ajax({
+            url: 'http://localhost:7001/deleteUser',
+            type: 'POST',
+            data: {
+                id
+            },
+            success(data) {
+                created()
+            }
+        })
+    })
+    $('#ul').on('click', 'li', function () {
+        var userId = $(this).attr('id')
+        var name = $(this).attr('name')
+        var age = $(this).attr('age')
+        id = userId
+        $('#name').val(name)
+        $('#age').val(age)
+    })
+    created()
+
+    function created() {
+        $.ajax({
+            url: 'http://localhost:7001',
+            type: 'GET',
+            data: {},
+            success(data) {
+                $('#ul').html(``)
+                console.log(data)
+                data.forEach(i => {
+                    var str = $(
+                        `<li name=${i.bookName} age=${i.price} id=${i.id}>${i.bookName}</li><button id=${i.id}>X</button><img src=${'http://localhost:7001'+i.picUrl}/>`
+                    )
+                    $('#ul').append(str)
+                });
+            }
+        })
+    }
+    $('#btn').click(function () {
+        var name = $('#name').val()
+        var age = $('#age').val()
+        $.ajax({
+            url: 'http://localhost:7001/addUser',
+            type: 'POST',
+            // headers:{
+            //     "content-type":"application/json"
+            // },
+            data: {
+                name,
+                age
+            },
+            success(data) {
+                console.log(data)
+            }
+        })
+    })
+    $('#upBtn').click(function () {
+        var name = $('#name').val()
+        var age = $('#age').val()
+        $.ajax({
+            url: 'http://localhost:7001/updateUser',
+            type: 'POST',
+            // headers:{
+            //     "content-type":"application/json"
+            // },
+            data: {
+                name,
+                age,
+                id
+            },
+            success(data) {
+                console.log(data)
+            }
+        })
+    })
+</script> -->

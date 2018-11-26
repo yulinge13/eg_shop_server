@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.11.2",
+    "egg-cors": "^2.1.1",
+    "egg-mysql": "^3.0.0",
+    "egg-redis": "^2.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "node-uuid": "^1.4.8",
+    "node-xlsx": "^0.12.1",
+    "xlsx": "^0.14.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.9.0"
+  }
+}
