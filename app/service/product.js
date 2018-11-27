@@ -1,5 +1,5 @@
 const Service = require('egg').Service
-class MenuService extends Service {
+class ProductService extends Service {
     //查询所有的商品
     async findLists(parmas) {
         const {
@@ -70,5 +70,20 @@ class MenuService extends Service {
         const res = this.app.mysql.query(sql)
         return res
     }
+    //获取商品
+    async getProductInfo(id) {
+        let sql = `select * from product where id=${id}`
+        let data = await this.app.mysql.query(sql)
+        if (data.length > 0) {
+            let info = data[0]
+            let commnetSql = `select * from comment where productId=${id}`
+            let comments = await this.app.mysql.query(commnetSql)
+            return { ...info,
+                comments
+            }
+        } else {
+            return false
+        }
+    }
 }
-module.exports = MenuService
+module.exports = ProductService

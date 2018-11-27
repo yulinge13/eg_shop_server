@@ -77,6 +77,14 @@ const routers = app => {
             ],
             method: 'post'
         },
+        {
+            url: '/getProductInfo',
+            middlewareLists: [
+                isParmas(['productId']),
+                controller.product.getProductInfo,
+            ],
+            method: 'get'
+        },
         //分类
         {
             url: '/getClass',
@@ -104,7 +112,7 @@ const routers = app => {
         {
             url: '/addUserInfo',
             middlewareLists: [
-                isParmas(['name','passWord']),
+                isParmas(['name', 'passWord']),
                 controller.user.addUserInfo,
             ],
             method: 'post'
@@ -112,7 +120,7 @@ const routers = app => {
         {
             url: '/login',
             middlewareLists: [
-                isParmas(['name','passWord']),
+                isParmas(['name', 'passWord']),
                 controller.user.login,
             ],
             method: 'post'
@@ -141,6 +149,31 @@ const routers = app => {
             middlewareLists: [
                 isParmas(['orderId']),
                 controller.order.orderPay,
+            ],
+            method: 'post'
+        },
+        {
+            url: '/orderInfo',
+            middlewareLists: [
+                isParmas(['orderId']),
+                controller.order.orderInfo,
+            ],
+            method: 'get'
+        },
+        {
+            url: '/getOrder',
+            middlewareLists: [
+                isParmas(['orderId']),
+                controller.order.getOrder,
+            ],
+            method: 'post'
+        },
+        {
+            url: '/comments',
+            middlewareLists: [
+                isLogin(),
+                isParmas(['orderId','content']),
+                controller.order.comments,
             ],
             method: 'post'
         },

@@ -2,8 +2,14 @@
 module.exports = (pamras,app) => {
     return async function (ctx,next) {
         console.log(ctx.query)
-        console.log(pamras)
-        const {body} = ctx.request
+        console.log(ctx.method)
+        const method = ctx.method.toUpperCase()
+        let body = []
+        if(method === 'GET'){
+            body = ctx.request.query
+        }else if(method === 'POST'){
+            body = ctx.request.body
+        }
         let onOff = true
         let msg = ''
         pamras.forEach(i => {

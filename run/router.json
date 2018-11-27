@@ -117,6 +117,20 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/getProductInfo",
+    "regexp": "/^\\/getProductInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/getClass",
     "regexp": "/^\\/getClass(?:\\/(?=$))?$/",
     "stack": [
@@ -209,6 +223,47 @@
     "path": "/orderPay",
     "regexp": "/^\\/orderPay(?:\\/(?=$))?$/",
     "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/orderInfo",
+    "regexp": "/^\\/orderInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/getOrder",
+    "regexp": "/^\\/getOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/comments",
+    "regexp": "/^\\/comments(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
       "anonymous",
       "wrappedController"
     ]

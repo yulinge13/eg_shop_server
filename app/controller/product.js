@@ -1,6 +1,6 @@
-const Service = require('egg').Service
+const Controller = require('egg').Controller
 
-class ProductService extends Service {
+class ProductController extends Controller {
     //查询所有的商品
     async findLists(parmas) {
         const {
@@ -90,5 +90,20 @@ class ProductService extends Service {
             msg: 'ok'
         }
     }
+    //获取商品详情
+    async getProductInfo() {
+        const {
+            ctx
+        } = this
+        const {
+            productId
+        } = ctx.request.query
+        const res = await ctx.service.product.getProductInfo(productId)
+        if(res){
+            ctx.success('获取成功',res)
+        }else{
+            ctx.error('获取失败',res)
+        }
+    }
 }
-module.exports = ProductService
+module.exports = ProductController

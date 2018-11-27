@@ -10,7 +10,7 @@ const enumConfig = {
     5: 5, //待评价
     6: 6, //已评价
 }
-class User extends Service {
+class OrderService extends Service {
     //添加用户
     async addOrder(params) {
         try {
@@ -56,8 +56,8 @@ class User extends Service {
         return list
     }
     //支付
-    async orderPay(params){
-        try{
+    async orderPay(params) {
+        try {
             const {
                 orderId,
                 userId
@@ -66,10 +66,74 @@ class User extends Service {
             const res = await this.app.mysql.query(sql)
             console.log(res)
             return res
-        }catch(err){
+        } catch (err) {
             return false
         }
     }
+    //确认收货
+    async getOrder(params) {
+        try {
+            const {
+                orderId,
+                userId
+            } = params
+            const sql = `update orderlists set orderStatus=${enumConfig['4']} where orderId='${orderId}' and userId=${userId}`
+            const res = await this.app.mysql.query(sql)
+            return res
+        } catch (err) {
+            return false
+        }
+    }
+    //查看订单详情
+    async orderInfo(params) {
+        try {
+            const {
+                orderId,
+            } = params
+            const sql = `select * from orderlists o left join product p on o.productId = p.id where o.orderId='${orderId}'`
+            const res = await this.app.mysql.query(sql)
+            if (res.length >= 1) {
+                return res[0]
+            } else {
+                return false
+            }
+        } catch (err) {
+            return false
+        }
+    }
+    //评论
+    async comments(params) {
+        // try {
+        const {
+            orderId,
+            content
+        } = params
+        const id = UUID.v1().replace(/-/g, '') //评论id
+        const orderList = await this.app.mysql.query(`select productId,userId from orderlists where orderId='${orderId}'`)
+        const orderInfo = orderList[0]
+        console.log(orderInfo)
+        const {
+            userId,
+            productId
+        } = orderInfo
+        const creatTime = new Date().getTime()
+        const sql = `insert into comment(id,userId,orderId,content,creatTime,productId) values('${id}','${userId}','${orderId}','${content}','${creatTime}','${productId}')`
+        const res = await this.app.mysql.query(sql)
+        if (res) {
+            const orderSql = `update orderlists set orderStatus=${enumConfig['6']} where orderId='${orderId}' and userId=${userId}`
+            const orderRes = await this.app.mysql.query(orderSql)
+            if (orderRes) {
+                return res
+            } else {
+                return false
+            }
+        } else {
+            return false
+        }
+        // } catch (err) {
+        //     return false
+        // }
+    }
 }
 
-module.exports = User
+module.exports = OrderService

@@ -864,3 +864,161 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 17708
 hostname: LYU129PRI2
 
+2018-11-27 13:28:44,779 ERROR 14784 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14784
+hostname: LYU129PRI2
+
+2018-11-27 13:35:40,931 ERROR 18572 [-/::1/-/6ms GET /orderInfo?orderId=28001760f15c11e898a59d36430d8898] nodejs.ReferenceError: token is not defined
+    at Order.orderInfo (C:\Users\linge l yu\Desktop\eg_shop_server\app\controller\order.js:84:58)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\app\middleware\isParmas.js:22:19
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 18572
+hostname: LYU129PRI2
+
+2018-11-27 13:35:48,423 ERROR 18572 [-/::1/-/1ms GET /orderInfo?orderId=28001760f15c11e898a59d36430d8898] nodejs.ReferenceError: token is not defined
+    at Order.orderInfo (C:\Users\linge l yu\Desktop\eg_shop_server\app\controller\order.js:84:58)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\app\middleware\isParmas.js:22:19
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 18572
+hostname: LYU129PRI2
+
+2018-11-27 15:58:31,422 ERROR 14784 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14784
+hostname: LYU129PRI2
+
+2018-11-27 17:20:37,912 ERROR 13556 [-/::1/-/3ms POST /comments] nodejs.ReferenceError: ctx is not defined
+    at Order.comments (C:\Users\linge l yu\Desktop\eg_shop_server\app\controller\order.js:132:17)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\app\middleware\isParmas.js:22:19
+    at dispatch (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\app\middleware\isLogin.js:5:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 13556
+hostname: LYU129PRI2
+
+2018-11-27 17:23:20,930 ERROR 5384 [-/::1/-/52ms POST /comments] nodejs.TypeError: Cannot destructure property `userId` of 'undefined' or 'null'.
+    at User.comments (C:\Users\linge l yu\Desktop\eg_shop_server\app\service\order.js:116:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 5384
+hostname: LYU129PRI2
+
+2018-11-27 17:24:00,930 ERROR 11612 [-/::1/-/51ms POST /comments] nodejs.TypeError: Cannot destructure property `userId` of 'undefined' or 'null'.
+    at User.comments (C:\Users\linge l yu\Desktop\eg_shop_server\app\service\order.js:117:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 11612
+hostname: LYU129PRI2
+
+2018-11-27 18:57:48,438 ERROR 14784 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14784
+hostname: LYU129PRI2
+
+2018-11-27 19:05:49,689 ERROR 14784 nodejs.ClusterClientNoResponseError: client no response in 226654ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 14784
+hostname: LYU129PRI2
+
+2018-11-27 19:08:31,743 ERROR 1728 [-/::1/-/6ms GET /getProductInfo?productId=3] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co\index.js:65:19)
+    at C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co\index.js:30:15)
+    at ProductService.getProductInfo (C:\Users\linge l yu\Desktop\eg_shop_server\app\service\product.js:79:41)
+    at ProductController.getProductInfo (C:\Users\linge l yu\Desktop\eg_shop_server\app\controller\product.js:101:47)
+    at Object.callFn (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-core\lib\utils\index.js:36:21)
+    sql: select * from product where id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from product where id=undefined"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1728
+hostname: LYU129PRI2
+
