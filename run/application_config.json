@@ -13,9 +13,7 @@
       "genid": "<Function anonymous>"
     },
     "security": {
-      "domainWhiteList": [
-        "localhost:7001"
-      ],
+      "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -106,6 +104,7 @@
         "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-mysql\\config\\locales",
         "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-cors\\config\\locales",
         "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-redis\\config\\locales",
+        "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-socket.io\\config\\locales",
         "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\locales",
         "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\locales"
       ],
@@ -200,6 +199,18 @@
       "app": true,
       "agent": false
     },
+    "io": {
+      "init": {
+        "path": "/socket.io",
+        "allowRequest": "<Function bound >"
+      },
+      "namespace": {
+        "/": {
+          "connectionMiddleware": [],
+          "packetMiddleware": []
+        }
+      }
+    },
     "env": "local",
     "name": "demo",
     "keys": "<String len: 7>",
@@ -223,6 +234,7 @@
         "egg-cors": "^2.1.1",
         "egg-mysql": "^3.0.0",
         "egg-redis": "^2.0.0",
+        "egg-socket.io": "^4.1.5",
         "jsonwebtoken": "^8.3.0",
         "node-uuid": "^1.4.8",
         "node-xlsx": "^0.12.1",
@@ -529,6 +541,19 @@
       "from": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\plugin.js",
       "path": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-redis",
       "version": "2.0.0"
+    },
+    "io": {
+      "enable": true,
+      "package": "egg-socket.io",
+      "name": "io",
+      "dependencies": [
+        "session"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\plugin.js",
+      "path": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-socket.io",
+      "version": "4.1.5"
     }
   }
 }

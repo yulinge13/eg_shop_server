@@ -12,7 +12,7 @@ module.exports = appInfo => {
         methodnoallow: {
             enable: false
         },
-        domainWhiteList: ['localhost:7001']
+        domainWhiteList: []
     };
     config.cors = {
         origin: '*',
@@ -26,6 +26,21 @@ module.exports = appInfo => {
     config.multipart = {
         mode: 'file',
     };
+    config.customLogger = {
+        scheduleLogger: {
+            // consoleLevel: 'NONE',
+            // file: path.join(appInfo.root, 'logs', appInfo.name, 'egg-schedule.log'),
+        },
+    };
+    config.io = {
+        init: { }, // passed to engine.io
+        namespace: {
+          '/': {
+            connectionMiddleware: [],
+            packetMiddleware: [],
+          },
+        },
+      };
     // config.redis = {
     //     client: {
     //         port: 6379, // Redis port 

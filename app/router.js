@@ -2,6 +2,7 @@ const routers = app => {
     const {
         router,
         controller,
+        io
     } = app
     const {
         isParmas,
@@ -181,6 +182,7 @@ const routers = app => {
     routerConfig.forEach(item => {
         router[item.method](item.url, ...item.middlewareLists)
     })
+    // io.of('/').route('exchange', io.controller.index.exchange);
     // //test
     // router.get('/', controller.home.index)
     // router.post('/addUser', controller.home.addUser)

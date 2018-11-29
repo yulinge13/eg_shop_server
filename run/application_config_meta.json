@@ -85,6 +85,18 @@
       "cron": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
+  "customLogger": {
+    "scheduleLogger": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js"
+  },
+  "io": {
+    "init": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js",
+        "packetMiddleware": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js"
+      }
+    }
+  },
   "mysql": {
     "client": {
       "host": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.local.js",
@@ -131,12 +143,6 @@
     "eventSources": {
       "default": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-watcher\\config\\config.default.js"
-    }
-  },
-  "customLogger": {
-    "scheduleLogger": {
-      "consoleLevel": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "development": {
@@ -197,6 +203,7 @@
       "egg-cors": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",
       "egg-redis": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-socket.io": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",
       "jsonwebtoken": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",
       "node-uuid": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",
       "node-xlsx": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\node_modules\\egg\\config\\config.default.js",

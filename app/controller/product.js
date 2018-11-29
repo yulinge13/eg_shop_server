@@ -1,5 +1,4 @@
 const Controller = require('egg').Controller
-
 class ProductController extends Controller {
     //查询所有的商品
     async findLists(parmas) {
@@ -30,8 +29,7 @@ class ProductController extends Controller {
         //         }
         //     }
         // });
-        console.log('enter')
-        console.log(data)
+        // await app.runSchedule('../schedule/payTime.js');
         ctx.body = {
             success: true,
             data: data,
