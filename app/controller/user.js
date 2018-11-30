@@ -18,12 +18,11 @@ module.exports = app => {
                 age
             }
             let res = await this.ctx.service.user.addUser(signInfo)
-            ctx.success('ok', res)
-            // ctx.body = {
-            //     success:true,
-            //     msg:'ok',
-            //     data:token
-            // }
+            if (res) {
+                ctx.success('恭喜注册成功!', res)
+            } else {
+                ctx.error('注册失败!', res)
+            }
         }
         //登陆
         async login() {
@@ -40,15 +39,14 @@ module.exports = app => {
                     passWord,
                 }
                 let res = await this.ctx.service.user.login(signInfo)
-                if(res){
+                if (res) {
                     ctx.success('登陆成功', res)
-                }else{
-                    ctx.success('登陆失败，账号密码错误', null)
+                } else {
+                    ctx.error('登陆失败，账号密码错误', null)
                 }
             } else {
-                ctx.success('登陆失败', null)
+                ctx.error('登陆失败', null)
             }
-            // 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoieXVsaW5nZTEzIiwicGFzc1dvcmQiOiJ5dTgwMTUxMTM1IiwiaWF0IjoxNTQxNDk4MTgyLCJleHAiOjE1NDE1MDE3ODJ9.U7aWREYsjAuCSB9J0_z3OIXaFq1vzeQ-9f-csN7Xzbw'
         }
 
     }

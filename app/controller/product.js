@@ -49,7 +49,8 @@ class ProductController extends Controller {
             productNum,
             classFirstId,
             classSecId,
-            id
+            id,
+            productContent
         } = ctx.request.body
         if (productName && price && productPic && productNum && classSecId && classFirstId) {
             let res = null

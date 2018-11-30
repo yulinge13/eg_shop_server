@@ -1,0 +1,88 @@
+2018-11-30 14:48:44,751 WARN 19916 [-/::1/-/17ms POST /upload] nodejs.Error: Invalid filename: Mars需求-原型-设计-开发进度10.15-10.30.xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 19916
+hostname: LYU129PRI2
+
+2018-11-30 14:49:11,691 WARN 19916 [-/::1/-/4ms POST /upload] nodejs.Error: Invalid filename: Check Client Entity Records Inces (1).xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 19916
+hostname: LYU129PRI2
+
+2018-11-30 14:52:00,112 WARN 19916 [-/::1/-/5ms POST /upload] nodejs.Error: Invalid filename: Check Client Entity Records Inces (2).xlsx
+    at checkFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-multipart\app.js:72:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 19916
+hostname: LYU129PRI2
+
+2018-11-30 16:01:45,479 WARN 10456 [-/::1/-/21ms POST /upload] nodejs.Error: Invalid filename: 5c13c41d74f442fcb6d35d10054033bc.blob
+    at checkFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\egg-multipart\app.js:73:23)
+    at Busboy.onFile (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\co-busboy\index.js:101:17)
+    at emitMany (events.js:147:13)
+    at Busboy.emit (events.js:224:7)
+    at Busboy.emit (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at emitOne (events.js:116:13)
+    at PartStream.emit (events.js:211:7)
+    at HeaderParser.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\Dicer.js:51:16)
+    at emitOne (events.js:116:13)
+    at HeaderParser.emit (events.js:211:7)
+    at HeaderParser._finish (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at emitMany (events.js:147:13)
+    at SBMH.emit (events.js:224:7)
+    at SBMH._sbmh_feed (C:\Users\linge l yu\Desktop\eg_shop_server\node_modules\streamsearch\lib\sbmh.js:159:14)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true"}
+pid: 10456
+hostname: LYU129PRI2
+

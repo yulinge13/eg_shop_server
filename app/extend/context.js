@@ -1,4 +1,5 @@
 module.exports = {
+    //成功的提示
     success(msg, data) {
         this.body = {
             msg,
@@ -6,6 +7,7 @@ module.exports = {
             data
         }
     },
+    //失败的提示
     error(msg, data) {
         this.body = {
             msg,

@@ -27,14 +27,29 @@ class ProductService extends Service {
             productPic,
             productNum,
             classFirstId,
-            classSecId
+            classSecId,
+            productContent
         } = parmas
         console.log(parmas)
         const res = this.app.mysql.query(`
-        INSERT INTO product ( productName, price, productPic, productNum, classFirstId, classSecId )
-        VALUES
-            ( '${productName}', '${price}', '${productPic}', '${productNum}', '${classFirstId}', '${ classSecId }' )
-        `)
+        INSERT INTO product ( 
+            productName, 
+            price, 
+            productPic, 
+            productNum, 
+            classFirstId, 
+            classSecId ,
+            productContent
+        )
+        VALUES ( 
+            '${productName}',
+            '${price}', 
+            '${productPic}', 
+            '${productNum}', 
+            '${classFirstId}',
+            '${classSecId}',
+            '${productContent}'
+        )`)
         return res
     }
     //删除商品
@@ -54,7 +69,8 @@ class ProductService extends Service {
             productNum,
             classFirstId,
             classSecId,
-            id
+            id,
+            productContent
         } = parmas
         let sql = `
             update product set 
@@ -64,6 +80,7 @@ class ProductService extends Service {
                 productNum='${productNum}',
                 classFirstId='${classFirstId}',
                 classSecId='${classSecId}' 
+                productContent=${productContent}
             where 
                 id='${id}'
         `

@@ -89,8 +89,13 @@
     "scheduleLogger": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js"
   },
   "io": {
-    "enable": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js",
-    "package": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js"
+    "init": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js",
+        "packetMiddleware": "C:\\Users\\linge l yu\\Desktop\\eg_shop_server\\config\\config.default.js"
+      }
+    }
   },
   "mysql": {
     "client": {

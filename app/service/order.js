@@ -103,36 +103,40 @@ class OrderService extends Service {
     }
     //评论
     async comments(params) {
-        // try {
-        const {
-            orderId,
-            content
-        } = params
-        const id = UUID.v1().replace(/-/g, '') //评论id
-        const orderList = await this.app.mysql.query(`select productId,userId from orderlists where orderId='${orderId}'`)
-        const orderInfo = orderList[0]
-        console.log(orderInfo)
-        const {
-            userId,
-            productId
-        } = orderInfo
-        const creatTime = new Date().getTime()
-        const sql = `insert into comment(id,userId,orderId,content,creatTime,productId) values('${id}','${userId}','${orderId}','${content}','${creatTime}','${productId}')`
-        const res = await this.app.mysql.query(sql)
-        if (res) {
-            const orderSql = `update orderlists set orderStatus=${enumConfig['6']} where orderId='${orderId}' and userId=${userId}`
-            const orderRes = await this.app.mysql.query(orderSql)
-            if (orderRes) {
-                return res
-            } else {
+        try {
+            const {
+                orderId,
+                content
+            } = params
+            const id = UUID.v1().replace(/-/g, '') //评论id
+            const orderList = await this.app.mysql.query(`select productId,userId from orderlists where orderId='${orderId}'`)
+            const orderInfo = orderList[0]
+            const {
+                userId,
+                productId,
+                orderStatus
+            } = orderInfo
+            if (enumConfig[orderStatus] === 4) {
+                const creatTime = new Date().getTime()
+                const sql = `insert into comment(id,userId,orderId,content,creatTime,productId) values('${id}','${userId}','${orderId}','${content}','${creatTime}','${productId}')`
+                const res = await this.app.mysql.query(sql)
+                if (res) {
+                    const orderSql = `update orderlists set orderStatus=${enumConfig['6']} where orderId='${orderId}' and userId=${userId}`
+                    const orderRes = await this.app.mysql.query(orderSql)
+                    if (orderRes) {
+                        return res
+                    } else {
+                        return false
+                    }
+                } else {
+                    return false
+                }
+            } else if (enumConfig[orderStatus] === 6) {
                 return false
             }
-        } else {
+        } catch (err) {
             return false
         }
-        // } catch (err) {
-        //     return false
-        // }
     }
 }
 
